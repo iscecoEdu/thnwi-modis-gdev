@@ -1,0 +1,6310 @@
+{
+  "firstLayout": "startup",
+  "gdVersion": {
+    "build": 238,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": true,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "ch.admin.isceco.learnhub.mission_informatik_lehre",
+    "pixelsRounding": true,
+    "projectUuid": "21bc87f8-28b3-4e46-bed3-ab53de2cecfc",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "scaleOuter",
+    "templateSlug": "starting-platformer-pixel",
+    "version": "1.0.0",
+    "name": "MultiMissionInformatikLehre",
+    "description": "",
+    "author": "Mission Informatik Lehre powered by ISCeco",
+    "windowWidth": 720,
+    "windowHeight": 1280,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/Goldman-Regular7.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "21bcfe4bb1045b82ecde51b2c493fc80da9496fb2f12e2e874a799d97505b795_Goldman-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/21bcfe4bb1045b82ecde51b2c493fc80da9496fb2f12e2e874a799d97505b795_Goldman-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Goldman-Bold7.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "4edb48c0d41fb226b138458d9186d2a903e8a36d3014d4fb0ca4e9b8caff372b_Goldman-Bold.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/4edb48c0d41fb226b138458d9186d2a903e8a36d3014d4fb0ca4e9b8caff372b_Goldman-Bold.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Goldman-Regular8.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Goldman-Regular.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Goldman-Bold8.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Goldman-Bold.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite66.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite8.png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hero-Cape-R4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Hero-Cape-R.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hero-Cape-L4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Hero-Cape-L.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hero-Cape-R-Moving4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Hero-Cape-R-Moving.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hero-Cape-L-Moving4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Hero-Cape-L-Moving.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bug-R4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bug-R.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bug-L4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bug-L.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cable_rodents_R4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cable_rodents_R.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cable_rodents_L4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cable_rodents_L.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cable_rodents_L_Moving4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cable_rodents_L_Moving.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cable_rodents_R_Moving4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cable_rodents_R_Moving.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Worm-R4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Worm-R.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Worm-R-Moving4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Worm-R-Moving.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Worm-L4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Worm-L.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Worm-L-Moving4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Worm-L-Moving.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/grass_block 5x4.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\grass_block 5x1.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/grass_block 5X8.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\grass_block 5X5.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fragezeichen Box UK4.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fragezeichen Box UK.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fragezeichen Box4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fragezeichen Box.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Heart-Filled4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Heart-Filled.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Heart-Emty4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Heart-Empty.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HTML-Background4.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HTML-Background.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tastatur4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tastatur.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/5x5_wall_block4.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\5x5_wall_block.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Move-Control-Transparent4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Move-Control-Transparent.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Move-Control-Background-Transparent4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Move-Control-Background-Transparent.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fragezeichen-hit-Box4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fragezeichen-hit-Box.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Left-Arrow4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Left-Arrow.png\",\"extension\":\".png\"}",
+        "name": "Left-Arrow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/c49fc26e46b89aa8a5d48a1823fc292cffc6b610713ff3a3fff796e151412a59_Left-Arrow.png",
+          "name": "Left-Arrow.png"
+        }
+      },
+      {
+        "file": "assets/Right-Arrow4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Right-Arrow.png\",\"extension\":\".png\"}",
+        "name": "Right-Arrow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/91e09053deb6974f426debf11cf77b6ca72c64dfaffa8c4887732df66cde2c71_Right-Arrow.png",
+          "name": "Right-Arrow.png"
+        }
+      },
+      {
+        "file": "assets/Cable4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Cable.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/earth_block4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\earth_block.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hero-R-Jump-Down4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Hero-R-Jump-Down.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hero-L-Jump-Down4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Hero-L-Jump-Down.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hero-R4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Hero-R.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hero-L4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Hero-L.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bug-L-flach4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bug-L-flach.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bug-R-flach4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bug-R-flach.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pop up4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Pop up.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Close round button4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Close round button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/2e80259c0d8278d32ac2e675949da256f7be42e52e81a4576672e352eaa67305_Close round button.png",
+          "name": "Close round button.png"
+        }
+      },
+      {
+        "file": "assets/Kabelnager-L-flach4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Kabelnager-L-flach.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Kabelnager-R-flach4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Kabelnager-R-flach.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump-Control4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jump-Control.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/iscecosbvlogo4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lib\\logos\\iscecosbvlogo.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Large Exit Button5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Large Exit Button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/ee09bfd4171613d3e2e06b74cbd5ca525fec2a31dc4577e72399b376344626e1_Large Exit Button.png",
+          "name": "Large Exit Button.png"
+        }
+      },
+      {
+        "file": "assets/source4.gif",
+        "kind": "image",
+        "metadata": "",
+        "name": "source.gif",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/4f4ebefa-65ff-41dd-a31a-82c2518127c6/resources/05fd14a63cebf9fece55dc264c24d5d40d0656c2c15b4848dd59e8a975932f2f-source.gif",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/source.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/source821.png\"}",
+        "name": "source329",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MissionImpossibleTheme2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "MissionImpossibleTheme.mp3",
+        "preloadAsMusic": true,
+        "preloadAsSound": true,
+        "preloadInCache": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/c681014a-0eb0-434c-b758-b5a5a321292b/resources/98218e2c919f752f43a0ab458970147a6957ffc298670b08963c80cb365d012f-MissionImpossibleTheme.mp3",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NewSprite67.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite65.png\"}",
+        "name": "NewSprite64",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack243.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack123",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack244.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack124",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack245.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack125",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack246.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack126",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack247.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack127",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack248.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack128",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack249.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack129",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack250.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack130",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack251.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack131",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack252.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack132",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack253.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack133",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack254.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack134",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack255.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack135",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack256.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack136",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack257.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack137",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack258.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack138",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack259.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack139",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack260.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack140",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack261.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack141",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack262.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack142",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack263.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack143",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack264.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack144",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack265.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack145",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack266.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack146",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack267.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack147",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack268.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack148",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack269.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack149",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack270.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack150",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack271.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack151",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack272.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack152",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack273.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack153",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack274.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack154",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack275.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack155",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack276.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack156",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack277.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack157",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack278.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack158",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack279.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack159",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack280.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack160",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack281.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack161",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack282.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack162",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack283.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack163",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack284.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack164",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack285.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack165",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack286.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack166",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack287.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack167",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack288.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack168",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack289.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack169",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack290.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack170",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack291.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack171",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack292.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack172",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack293.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack173",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack294.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack174",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack295.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack175",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack296.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack176",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack297.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack177",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack298.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack178",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack299.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack179",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack300.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack180",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack301.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack181",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopHack302.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TopHack182",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MILMissionInformatikLehre2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "MILMissionInformatikLehre.jpg",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/60cd521d-d12e-4a66-9d9d-385b970eb9f9/resources/2ca18c5263a86f5587b06c80f9b88ba9ba74abce79b0de632af473b437dfbed4-MILMissionInformatikLehre.jpg",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Door With Frame.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door With Frame.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Door/ebf5a6faac331368eb5d32375b50e8ee52c095a95326cc70db6e1413683036d8_Door With Frame.png",
+          "name": "Door With Frame.png"
+        }
+      },
+      {
+        "file": "assets/Door With Frame_Closed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door With Frame_Closed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Door/b9627812567c6bda1c92b887facbddec9f82198cf42f9f0f41bbba4320bb49ff_Door With Frame_Closed.png",
+          "name": "Door With Frame_Closed.png"
+        }
+      },
+      {
+        "file": "assets/Door With Frame_Open.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door With Frame_Open.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Door/a69e54aecf30566a9a5c1ae5a3ad81c9decc94cadf81b9565913254ee92024c4_Door With Frame_Open.png",
+          "name": "Door With Frame_Open.png"
+        }
+      },
+      {
+        "file": "assets/Advisor-R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Advisor-R.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewPanelSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewPanelSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/No Shadow.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "No Shadow",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Shadow.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Shadow",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiled_Empty Cloud Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Empty Cloud Background.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/1835a8e778f048485605f0cecdca221dccb5d4b05821f101c1fc05d239f422b2_tiled_Empty Cloud Background.png",
+          "name": "tiled_Empty Cloud Background.png"
+        }
+      },
+      {
+        "file": "assets/assets_underground_block.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_underground_block.png.png\"}",
+        "name": "assets\\underground_block.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Matterhorn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Matterhorn.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Granit mit Schnee.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Granit mit Schnee.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Granit mit Schnee 5x1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Granit mit Schnee 5x1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Granit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Granit.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Granit 5x1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Granit 5x1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dunkler Granit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dunkler Granit.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dunkler Granit 5x1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dunkler Granit 5x1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/grass_block.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\grass_block.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Steinbock-R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Steinbock-R.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Steinbock-L.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Steinbock-L.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Granit mit Schnee 2x1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Granit mit Schnee 2x1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Glühbirne Box.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Glühbirne Box.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Absolventen Hut Box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Absolventen Hut Box.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Drucker-L.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Drucker-L.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Drucker-R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Drucker-R.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Teppichboden-Orange 10x1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Teppichboden-Orange 10x1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Büro 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Büro 2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Holzboden.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Holzboden.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tisch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tisch.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Paper.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Paper.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Teppichboden-Blau.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Teppichboden-Blau.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Büro 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Büro 1.png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "player",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "direction",
+          "type": "string",
+          "value": "right"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "isFolded": true,
+          "name": "AdvancedJump",
+          "type": "AdvancedJump::AdvancedJump",
+          "PlatformerBehavior": "PlatformerObject",
+          "CoyoteTimeFrameDuration": 0.25,
+          "CanCoyoteJump": false,
+          "WasInTheAir": false,
+          "AirJumpCountMaximum": 1,
+          "AreFloorJumpCountedAsAirJump": false,
+          "AirJumpCount": 0,
+          "WasJumpKeyReleased": false
+        },
+        {
+          "isFolded": true,
+          "name": "DiveDash",
+          "type": "AdvancedJump::DiveDash",
+          "PlatformerCharacter": "PlatformerObject",
+          "PlatformerConfigurationStack": "PlatformerConfigurationStack",
+          "DiveMaxFallingSpeed": 3000,
+          "DiveInitialFallingSpeed": 1000,
+          "DiveGravity": 8000,
+          "IsDiving": false
+        },
+        {
+          "isFolded": true,
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "RotateBullet": true,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "BulletSpeedVariance": 0,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0
+        },
+        {
+          "name": "PlatformerConfigurationStack",
+          "type": "AdvancedJump::PlatformerConfigurationStack",
+          "PlatformerCharacter": "PlatformerObject"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": false,
+          "xGrabTolerance": 0,
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": false,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "yGrabOffset": 0
+        },
+        {
+          "name": "WallJump",
+          "type": "AdvancedJump::WallJump",
+          "PlatformerCharacter": "PlatformerObject",
+          "PlatformerConfigurationStack": "PlatformerConfigurationStack",
+          "JumpTimeFrame": 0.125,
+          "WallJumpSpeedX": 250,
+          "WallJumpAccelerationX": 1500,
+          "SideSpeedSustainTime": 0.2,
+          "WallSlidingGravity": 500,
+          "WallSlidingMaxFallingSpeed": 350,
+          "WallSlidingSpeedAbsorption": 350,
+          "WallSlidingFallingSpeedMin": 50,
+          "AutomaticSliding": false,
+          "PreviousX": 50.00000000002912,
+          "IsAgainstWall": false,
+          "WasLeftOrRightPressed": false,
+          "IsWallJumping": false,
+          "IsJumpingLeft": false,
+          "WasInTheAir": false,
+          "HasJustWallJump": false,
+          "MovedAwayFromTheWall": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Hero-R.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 220.5,
+                        "y": 630
+                      },
+                      {
+                        "x": 220.5,
+                        "y": 639.5
+                      },
+                      {
+                        "x": 70.5,
+                        "y": 640
+                      },
+                      {
+                        "x": 10,
+                        "y": 630.5
+                      },
+                      {
+                        "x": 10,
+                        "y": 298.5
+                      },
+                      {
+                        "x": 20,
+                        "y": 210
+                      }
+                    ],
+                    [
+                      {
+                        "x": 20,
+                        "y": 210
+                      },
+                      {
+                        "x": 30,
+                        "y": 200
+                      },
+                      {
+                        "x": 60,
+                        "y": 190
+                      },
+                      {
+                        "x": 200.5,
+                        "y": 199
+                      },
+                      {
+                        "x": 230,
+                        "y": 231.5
+                      },
+                      {
+                        "x": 230,
+                        "y": 443.5
+                      },
+                      {
+                        "x": 199,
+                        "y": 464
+                      }
+                    ],
+                    [
+                      {
+                        "x": 81.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 220,
+                        "y": 0
+                      },
+                      {
+                        "x": 241,
+                        "y": 22
+                      },
+                      {
+                        "x": 228,
+                        "y": 158
+                      },
+                      {
+                        "x": 200,
+                        "y": 200
+                      },
+                      {
+                        "x": 60,
+                        "y": 190
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 110
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 40
+                      }
+                    ],
+                    [
+                      {
+                        "x": 20,
+                        "y": 210
+                      },
+                      {
+                        "x": 199.5,
+                        "y": 464
+                      },
+                      {
+                        "x": 199.5,
+                        "y": 586
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Hero-L.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 99.5,
+                        "y": 630
+                      },
+                      {
+                        "x": 99.5,
+                        "y": 639.5
+                      },
+                      {
+                        "x": 250,
+                        "y": 640
+                      },
+                      {
+                        "x": 310,
+                        "y": 630.5
+                      },
+                      {
+                        "x": 310,
+                        "y": 298.5
+                      },
+                      {
+                        "x": 300,
+                        "y": 210
+                      }
+                    ],
+                    [
+                      {
+                        "x": 300,
+                        "y": 210
+                      },
+                      {
+                        "x": 290,
+                        "y": 200
+                      },
+                      {
+                        "x": 260,
+                        "y": 190
+                      },
+                      {
+                        "x": 119.5,
+                        "y": 199
+                      },
+                      {
+                        "x": 90,
+                        "y": 231.5
+                      },
+                      {
+                        "x": 90,
+                        "y": 443.5
+                      },
+                      {
+                        "x": 121,
+                        "y": 464
+                      }
+                    ],
+                    [
+                      {
+                        "x": 238.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 0
+                      },
+                      {
+                        "x": 79,
+                        "y": 22
+                      },
+                      {
+                        "x": 92,
+                        "y": 158
+                      },
+                      {
+                        "x": 120,
+                        "y": 200
+                      },
+                      {
+                        "x": 260,
+                        "y": 190
+                      },
+                      {
+                        "x": 290.5,
+                        "y": 110
+                      },
+                      {
+                        "x": 290.5,
+                        "y": 40
+                      }
+                    ],
+                    [
+                      {
+                        "x": 300,
+                        "y": 210
+                      },
+                      {
+                        "x": 121,
+                        "y": 585.5
+                      },
+                      {
+                        "x": 120.5,
+                        "y": 464
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.15,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Hero-Cape-R.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 220.5,
+                        "y": 630
+                      },
+                      {
+                        "x": 220.5,
+                        "y": 639.5
+                      },
+                      {
+                        "x": 70.5,
+                        "y": 640
+                      },
+                      {
+                        "x": 10,
+                        "y": 630.5
+                      },
+                      {
+                        "x": 10,
+                        "y": 298.5
+                      },
+                      {
+                        "x": 20,
+                        "y": 210
+                      }
+                    ],
+                    [
+                      {
+                        "x": 20,
+                        "y": 210
+                      },
+                      {
+                        "x": 30,
+                        "y": 200
+                      },
+                      {
+                        "x": 60,
+                        "y": 190
+                      },
+                      {
+                        "x": 200,
+                        "y": 200
+                      },
+                      {
+                        "x": 210,
+                        "y": 343
+                      },
+                      {
+                        "x": 210,
+                        "y": 420
+                      },
+                      {
+                        "x": 199.5,
+                        "y": 585.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 210,
+                        "y": 340
+                      },
+                      {
+                        "x": 206,
+                        "y": 290
+                      },
+                      {
+                        "x": 309,
+                        "y": 290
+                      },
+                      {
+                        "x": 320,
+                        "y": 301
+                      },
+                      {
+                        "x": 320,
+                        "y": 320
+                      },
+                      {
+                        "x": 310,
+                        "y": 330
+                      },
+                      {
+                        "x": 280,
+                        "y": 340
+                      }
+                    ],
+                    [
+                      {
+                        "x": 81.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 220,
+                        "y": 0
+                      },
+                      {
+                        "x": 241,
+                        "y": 22
+                      },
+                      {
+                        "x": 228,
+                        "y": 158
+                      },
+                      {
+                        "x": 200,
+                        "y": 200
+                      },
+                      {
+                        "x": 60,
+                        "y": 190
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 110
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 40
+                      }
+                    ],
+                    [
+                      {
+                        "x": 230,
+                        "y": 230
+                      },
+                      {
+                        "x": 230,
+                        "y": 290
+                      },
+                      {
+                        "x": 206,
+                        "y": 290
+                      },
+                      {
+                        "x": 200,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Hero-Cape-R-Moving.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 191,
+                        "y": 630
+                      },
+                      {
+                        "x": 191,
+                        "y": 640
+                      },
+                      {
+                        "x": 70.5,
+                        "y": 640
+                      },
+                      {
+                        "x": 10,
+                        "y": 630.5
+                      },
+                      {
+                        "x": 10,
+                        "y": 298.5
+                      },
+                      {
+                        "x": 20,
+                        "y": 210
+                      }
+                    ],
+                    [
+                      {
+                        "x": 20,
+                        "y": 210
+                      },
+                      {
+                        "x": 30,
+                        "y": 200
+                      },
+                      {
+                        "x": 60,
+                        "y": 190
+                      },
+                      {
+                        "x": 200,
+                        "y": 200
+                      },
+                      {
+                        "x": 210,
+                        "y": 343
+                      },
+                      {
+                        "x": 210,
+                        "y": 420
+                      },
+                      {
+                        "x": 201,
+                        "y": 488.5
+                      },
+                      {
+                        "x": 176,
+                        "y": 593.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 210,
+                        "y": 340
+                      },
+                      {
+                        "x": 206,
+                        "y": 290
+                      },
+                      {
+                        "x": 309,
+                        "y": 290
+                      },
+                      {
+                        "x": 320,
+                        "y": 301
+                      },
+                      {
+                        "x": 320,
+                        "y": 320
+                      },
+                      {
+                        "x": 310,
+                        "y": 330
+                      },
+                      {
+                        "x": 280,
+                        "y": 340
+                      }
+                    ],
+                    [
+                      {
+                        "x": 81.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 220,
+                        "y": 0
+                      },
+                      {
+                        "x": 241,
+                        "y": 22
+                      },
+                      {
+                        "x": 228,
+                        "y": 158
+                      },
+                      {
+                        "x": 200,
+                        "y": 200
+                      },
+                      {
+                        "x": 60,
+                        "y": 190
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 110
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 40
+                      }
+                    ],
+                    [
+                      {
+                        "x": 230,
+                        "y": 230
+                      },
+                      {
+                        "x": 230,
+                        "y": 290
+                      },
+                      {
+                        "x": 206,
+                        "y": 290
+                      },
+                      {
+                        "x": 200,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.15,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Hero-Cape-L.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 630
+                      },
+                      {
+                        "x": 99.5,
+                        "y": 640
+                      },
+                      {
+                        "x": 250,
+                        "y": 640
+                      },
+                      {
+                        "x": 310,
+                        "y": 630.5
+                      },
+                      {
+                        "x": 310,
+                        "y": 298.5
+                      },
+                      {
+                        "x": 300,
+                        "y": 210
+                      }
+                    ],
+                    [
+                      {
+                        "x": 300,
+                        "y": 210
+                      },
+                      {
+                        "x": 280.5,
+                        "y": 190
+                      },
+                      {
+                        "x": 121,
+                        "y": 190
+                      },
+                      {
+                        "x": 110,
+                        "y": 343
+                      },
+                      {
+                        "x": 110,
+                        "y": 420
+                      },
+                      {
+                        "x": 121.5,
+                        "y": 588
+                      }
+                    ],
+                    [
+                      {
+                        "x": 110,
+                        "y": 340
+                      },
+                      {
+                        "x": 114,
+                        "y": 290
+                      },
+                      {
+                        "x": 11,
+                        "y": 290
+                      },
+                      {
+                        "x": 0,
+                        "y": 301
+                      },
+                      {
+                        "x": 0,
+                        "y": 320
+                      },
+                      {
+                        "x": 10,
+                        "y": 330.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 340
+                      }
+                    ],
+                    [
+                      {
+                        "x": 238.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 0
+                      },
+                      {
+                        "x": 79,
+                        "y": 22
+                      },
+                      {
+                        "x": 94,
+                        "y": 165
+                      },
+                      {
+                        "x": 116.5,
+                        "y": 190.5
+                      },
+                      {
+                        "x": 261.5,
+                        "y": 190.5
+                      },
+                      {
+                        "x": 290.5,
+                        "y": 110
+                      },
+                      {
+                        "x": 290.5,
+                        "y": 40
+                      }
+                    ],
+                    [
+                      {
+                        "x": 90,
+                        "y": 230
+                      },
+                      {
+                        "x": 90,
+                        "y": 290
+                      },
+                      {
+                        "x": 114,
+                        "y": 290
+                      },
+                      {
+                        "x": 121,
+                        "y": 213.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Hero-Cape-L-Moving.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 129.5,
+                        "y": 626.5
+                      },
+                      {
+                        "x": 130,
+                        "y": 640
+                      },
+                      {
+                        "x": 250,
+                        "y": 640
+                      },
+                      {
+                        "x": 310,
+                        "y": 630.5
+                      },
+                      {
+                        "x": 310,
+                        "y": 298.5
+                      },
+                      {
+                        "x": 300,
+                        "y": 210
+                      }
+                    ],
+                    [
+                      {
+                        "x": 300,
+                        "y": 210
+                      },
+                      {
+                        "x": 280.5,
+                        "y": 190
+                      },
+                      {
+                        "x": 121,
+                        "y": 190
+                      },
+                      {
+                        "x": 110,
+                        "y": 343
+                      },
+                      {
+                        "x": 110,
+                        "y": 420
+                      },
+                      {
+                        "x": 136,
+                        "y": 612
+                      }
+                    ],
+                    [
+                      {
+                        "x": 110,
+                        "y": 340
+                      },
+                      {
+                        "x": 114,
+                        "y": 290
+                      },
+                      {
+                        "x": 11,
+                        "y": 290
+                      },
+                      {
+                        "x": 0,
+                        "y": 301
+                      },
+                      {
+                        "x": 0,
+                        "y": 320
+                      },
+                      {
+                        "x": 10,
+                        "y": 330.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 340
+                      }
+                    ],
+                    [
+                      {
+                        "x": 238.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 0
+                      },
+                      {
+                        "x": 79,
+                        "y": 22
+                      },
+                      {
+                        "x": 94,
+                        "y": 165
+                      },
+                      {
+                        "x": 116.5,
+                        "y": 190.5
+                      },
+                      {
+                        "x": 261.5,
+                        "y": 190.5
+                      },
+                      {
+                        "x": 290.5,
+                        "y": 110
+                      },
+                      {
+                        "x": 290.5,
+                        "y": 40
+                      }
+                    ],
+                    [
+                      {
+                        "x": 90,
+                        "y": 230
+                      },
+                      {
+                        "x": 90,
+                        "y": 290
+                      },
+                      {
+                        "x": 114,
+                        "y": 290
+                      },
+                      {
+                        "x": 121,
+                        "y": 213.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Hero-R-Jump-Down.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 203,
+                        "y": 221.5
+                      },
+                      {
+                        "x": 30,
+                        "y": 158
+                      },
+                      {
+                        "x": 30,
+                        "y": 36
+                      },
+                      {
+                        "x": 80.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 220.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 241,
+                        "y": 22
+                      },
+                      {
+                        "x": 230,
+                        "y": 138.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 11,
+                        "y": 250.5
+                      },
+                      {
+                        "x": 20.5,
+                        "y": 160
+                      },
+                      {
+                        "x": 139.5,
+                        "y": 277
+                      },
+                      {
+                        "x": 230.5,
+                        "y": 509.5
+                      },
+                      {
+                        "x": 118.5,
+                        "y": 532.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 530
+                      }
+                    ],
+                    [
+                      {
+                        "x": 20.5,
+                        "y": 160
+                      },
+                      {
+                        "x": 30,
+                        "y": 158
+                      },
+                      {
+                        "x": 209,
+                        "y": 220.5
+                      },
+                      {
+                        "x": 229.5,
+                        "y": 229.5
+                      },
+                      {
+                        "x": 230,
+                        "y": 290
+                      },
+                      {
+                        "x": 190,
+                        "y": 430
+                      }
+                    ],
+                    [
+                      {
+                        "x": 229.5,
+                        "y": 290
+                      },
+                      {
+                        "x": 270,
+                        "y": 290
+                      },
+                      {
+                        "x": 280,
+                        "y": 299.5
+                      },
+                      {
+                        "x": 280,
+                        "y": 330
+                      },
+                      {
+                        "x": 249.5,
+                        "y": 339
+                      },
+                      {
+                        "x": 215.5,
+                        "y": 341
+                      }
+                    ],
+                    [
+                      {
+                        "x": 209.5,
+                        "y": 359.5
+                      },
+                      {
+                        "x": 230,
+                        "y": 461
+                      },
+                      {
+                        "x": 230.5,
+                        "y": 509.5
+                      },
+                      {
+                        "x": 194,
+                        "y": 415.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 139.5,
+                        "y": 549.5
+                      },
+                      {
+                        "x": 152,
+                        "y": 525.5
+                      },
+                      {
+                        "x": 221,
+                        "y": 511
+                      },
+                      {
+                        "x": 210,
+                        "y": 600
+                      },
+                      {
+                        "x": 140,
+                        "y": 600
+                      }
+                    ],
+                    [
+                      {
+                        "x": 50.5,
+                        "y": 550.5
+                      },
+                      {
+                        "x": 60,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 120.5,
+                        "y": 532
+                      },
+                      {
+                        "x": 119.5,
+                        "y": 600
+                      },
+                      {
+                        "x": 50,
+                        "y": 600
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Hero-L-Jump-Down.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 117,
+                        "y": 221.5
+                      },
+                      {
+                        "x": 290,
+                        "y": 158
+                      },
+                      {
+                        "x": 290,
+                        "y": 36
+                      },
+                      {
+                        "x": 239.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 99.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 79,
+                        "y": 22
+                      },
+                      {
+                        "x": 90,
+                        "y": 138.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 309,
+                        "y": 250.5
+                      },
+                      {
+                        "x": 299.5,
+                        "y": 160
+                      },
+                      {
+                        "x": 180.5,
+                        "y": 277
+                      },
+                      {
+                        "x": 89.5,
+                        "y": 509.5
+                      },
+                      {
+                        "x": 201.5,
+                        "y": 532.5
+                      },
+                      {
+                        "x": 320,
+                        "y": 530
+                      }
+                    ],
+                    [
+                      {
+                        "x": 299.5,
+                        "y": 160
+                      },
+                      {
+                        "x": 290,
+                        "y": 158
+                      },
+                      {
+                        "x": 111,
+                        "y": 220.5
+                      },
+                      {
+                        "x": 90.5,
+                        "y": 229.5
+                      },
+                      {
+                        "x": 90,
+                        "y": 290
+                      },
+                      {
+                        "x": 130,
+                        "y": 430
+                      }
+                    ],
+                    [
+                      {
+                        "x": 90.5,
+                        "y": 461
+                      },
+                      {
+                        "x": 111,
+                        "y": 364.5
+                      },
+                      {
+                        "x": 125.5,
+                        "y": 416
+                      },
+                      {
+                        "x": 90,
+                        "y": 509
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.5,
+                        "y": 330
+                      },
+                      {
+                        "x": 40,
+                        "y": 300
+                      },
+                      {
+                        "x": 50,
+                        "y": 290.5
+                      },
+                      {
+                        "x": 90,
+                        "y": 290.5
+                      },
+                      {
+                        "x": 104,
+                        "y": 339.5
+                      },
+                      {
+                        "x": 69,
+                        "y": 339.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 200.5,
+                        "y": 532.5
+                      },
+                      {
+                        "x": 270,
+                        "y": 531
+                      },
+                      {
+                        "x": 270,
+                        "y": 600
+                      },
+                      {
+                        "x": 198,
+                        "y": 600
+                      }
+                    ],
+                    [
+                      {
+                        "x": 100.5,
+                        "y": 512
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 526
+                      },
+                      {
+                        "x": 180.5,
+                        "y": 550
+                      },
+                      {
+                        "x": 180,
+                        "y": 600
+                      },
+                      {
+                        "x": 110.5,
+                        "y": 600
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "heartEmpty",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Heart-Empty.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 200,
+                        "y": 0
+                      },
+                      {
+                        "x": 200,
+                        "y": 190
+                      },
+                      {
+                        "x": 0,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "heart",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Heart-Filled.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 200,
+                        "y": 0
+                      },
+                      {
+                        "x": 200,
+                        "y": 190
+                      },
+                      {
+                        "x": 0,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "module",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Glühbirne Box.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 320
+                      },
+                      {
+                        "x": 0,
+                        "y": 320
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fragezeichen Box Module2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 320
+                      },
+                      {
+                        "x": 0,
+                        "y": 320
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Fragezeichen Box.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 320
+                      },
+                      {
+                        "x": 0,
+                        "y": 320
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Fragezeichen Box.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 320
+                      },
+                      {
+                        "x": 0,
+                        "y": 320
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Fragezeichen-hit-Box.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 320
+                      },
+                      {
+                        "x": 0,
+                        "y": 320
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "uk",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Absolventen Hut Box.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 320
+                      },
+                      {
+                        "x": 0,
+                        "y": 320
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Fragezeichen Box UK.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 320
+                      },
+                      {
+                        "x": 0,
+                        "y": 320
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Fragezeichen Box UK.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 320
+                      },
+                      {
+                        "x": 0,
+                        "y": 320
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "d51e51b54699cc452f0a31d1bae5e3816c3a3017ebf3e2ddb76cbcf2fbe9b698",
+      "name": "RightArrow",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Right-Arrow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 14,
+                        "y": 0
+                      },
+                      {
+                        "x": 14,
+                        "y": 14
+                      },
+                      {
+                        "x": 0,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "13a9cef806e970f1b9426f37cf41e27eb70fffedac02cd4736c023201afb7011",
+      "name": "LeftArrow",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Left-Arrow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Left-Arrow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 14,
+                        "y": 0
+                      },
+                      {
+                        "x": 14,
+                        "y": 14
+                      },
+                      {
+                        "x": 0,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "keyboard",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 0,
+          "RadiusY": 12,
+          "LoopDuration": 2,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Tastatur.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "throwableKeyboard",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AdvancedProjectile",
+          "type": "AdvancedProjectile::AdvancedProjectile",
+          "MaxLifetime": 0,
+          "MaxDistanceFromStartingPosition": 500,
+          "MaxSpeed": 1250,
+          "MinSpeed": 0,
+          "Acceleration": 1250,
+          "StartingSpeed": 750,
+          "DeleteWhenLifetimeExceeded": true,
+          "DeleteWhenDistanceExceeded": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Tastatur.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "shootControl",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "ButtonObjectEffects",
+          "type": "ButtonStates::ButtonObjectEffects",
+          "ButtonFSM": "ButtonFSM",
+          "Effect": "Effect",
+          "IdleEffect": "",
+          "FocusedEffect": "",
+          "PressedEffect": "Outline"
+        }
+      ],
+      "animations": [
+        {
+          "name": "source",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "source329",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 140,
+                        "y": 140
+                      },
+                      {
+                        "x": 560,
+                        "y": 140
+                      },
+                      {
+                        "x": 560,
+                        "y": 560
+                      },
+                      {
+                        "x": 140,
+                        "y": 560
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "source.gif",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 140,
+                        "y": 140
+                      },
+                      {
+                        "x": 560,
+                        "y": 140
+                      },
+                      {
+                        "x": 560,
+                        "y": 560
+                      },
+                      {
+                        "x": 140,
+                        "y": 560
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "jumpControl",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Jump-Control.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 320
+                      },
+                      {
+                        "x": 0,
+                        "y": 320
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "c7a381f15f0bb07adc63d78850702df44e8328a15db1ecb10ca1503491ed22a0",
+      "name": "moveControls",
+      "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "MultitouchButton",
+          "type": "SpriteMultitouchJoystick::MultitouchButton",
+          "ControllerIdentifier": 1,
+          "ButtonIdentifier": "A",
+          "TouchId": 0,
+          "TouchIndex": 2.0247e-320,
+          "IsReleased": false,
+          "Radius": 0
+        }
+      ],
+      "content": {},
+      "childrenContent": {
+        "Border": {
+          "adaptCollisionMaskAutomatically": false,
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Move-Control-Background-Transparent.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "Thumb": {
+          "adaptCollisionMaskAutomatically": false,
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Move-Control-Transparent.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "popupBg",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Pop up.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 6000,
+                        "y": 0
+                      },
+                      {
+                        "x": 6000,
+                        "y": 6000
+                      },
+                      {
+                        "x": 0,
+                        "y": 6000
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "ecea691cb11665adecdaff3754ea2d63d18f71039c3b09837a24d13382eaa05f",
+      "name": "CloseRoundButton",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Close round button.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 80,
+                        "y": 0
+                      },
+                      {
+                        "x": 80,
+                        "y": 80
+                      },
+                      {
+                        "x": 0,
+                        "y": 80
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "popupTitle",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "Modul XY",
+      "font": "assets\\Goldman-Bold.ttf",
+      "textAlignment": "left",
+      "characterSize": 24,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Modul XY",
+        "font": "assets\\Goldman-Bold.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 24,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "popupText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "Moduldescription\n\nNoch kein Treffer! Erst wenn ein ein Modul oder ein überbetrieblicher Kurs getroffen wird, wird die jeweilige Beschreibung dazu samt spezifischer Infos angezeigt.\nTriff erstmal eines der beiden Komponenten...\nBis dahin stay tuned. ",
+      "font": "assets\\Goldman-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 20,
+      "color": {
+        "b": 5,
+        "g": 117,
+        "r": 65
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Moduldescription\n\nNoch kein Treffer! Erst wenn ein ein Modul oder ein überbetrieblicher Kurs getroffen wird, wird die jeweilige Beschreibung dazu samt spezifischer Infos angezeigt.\nTriff erstmal eines der beiden Komponenten...\nBis dahin stay tuned. ",
+        "font": "assets\\Goldman-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 20,
+        "color": "65;117;5"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "rightControl",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Jump-Control.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 320
+                      },
+                      {
+                        "x": 0,
+                        "y": 320
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "downControl",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Jump-Control.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 320
+                      },
+                      {
+                        "x": 0,
+                        "y": 320
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "leftControl",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "isFolded": true,
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Jump-Control.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 320
+                      },
+                      {
+                        "x": 0,
+                        "y": 320
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "popupText2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "description",
+          "type": "string",
+          "value": "Noch kein Treffer! Erst wenn ein ein Modul oder ein überbetrieblicher Kurs getroffen wird, wird die jeweilige Beschreibung dazu samt spezifischer Infos angezeigt. Triff erstmal eines der beiden Komponenten... Bis dahin stay tuned. "
+        },
+        {
+          "name": "fertig",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "Moduldescription\n\nNoch kein Treffer! Erst wenn ein ein Modul oder ein überbetrieblicher Kurs getroffen wird, wird die jeweilige Beschreibung dazu samt spezifischer Infos angezeigt.\nTriff erstmal eines der beiden Komponenten...\nBis dahin stay tuned. ",
+      "font": "assets\\Goldman-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 225,
+        "g": 255,
+        "r": 85
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Moduldescription\n\nNoch kein Treffer! Erst wenn ein ein Modul oder ein überbetrieblicher Kurs getroffen wird, wird die jeweilige Beschreibung dazu samt spezifischer Infos angezeigt.\nTriff erstmal eines der beiden Komponenten...\nBis dahin stay tuned. ",
+        "font": "assets\\Goldman-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 40,
+        "color": "85;255;225"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 32,
+      "leftMargin": 0,
+      "name": "PopupPanel",
+      "rightMargin": 0,
+      "texture": "NewPanelSprite4",
+      "tiled": false,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "310bf1d14ce9e1b15d00b21a07024e5eee114a1bd0f301cca75651c44b2c7d48",
+      "name": "PopupRedPanel",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "No Shadow",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 397,
+                        "y": 0
+                      },
+                      {
+                        "x": 397,
+                        "y": 97
+                      },
+                      {
+                        "x": 0,
+                        "y": 97
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Shadow",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 397,
+                        "y": 0
+                      },
+                      {
+                        "x": 397,
+                        "y": 97
+                      },
+                      {
+                        "x": 0,
+                        "y": 97
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 32,
+      "leftMargin": 0,
+      "name": "BundeslogoPanel",
+      "rightMargin": 0,
+      "texture": "assets\\lib\\logos\\iscecosbvlogo.png",
+      "tiled": false,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "4de6f6b3cfbc080e0612304d9a50b8c88dc2e9f995be50b68736f8fbfc9151a1",
+      "name": "ExitButton",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Large Exit Button.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 327,
+                        "y": 0
+                      },
+                      {
+                        "x": 327,
+                        "y": 122
+                      },
+                      {
+                        "x": 0,
+                        "y": 122
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "CountDown",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Count Down 12:00",
+      "font": "assets\\Goldman-Bold.ttf",
+      "textAlignment": "right",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Count Down 12:00",
+        "font": "assets\\Goldman-Bold.ttf",
+        "textAlignment": "right",
+        "verticalTextAlignment": "top",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "quiz",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "description",
+          "type": "string",
+          "value": "Noch kein Treffer! Erst wenn ein ein Modul oder ein überbetrieblicher Kurs getroffen wird, wird die jeweilige Beschreibung dazu samt spezifischer Infos angezeigt. Triff erstmal eines der beiden Komponenten... Bis dahin stay tuned. "
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "Quiz Frage:\nIch seh das was du nicht siehst, und das ist ... unsichtbar...?",
+      "font": "assets\\Goldman-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 5,
+        "g": 117,
+        "r": 65
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Quiz Frage:\nIch seh das was du nicht siehst, und das ist ... unsichtbar...?",
+        "font": "assets\\Goldman-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 40,
+        "color": "65;117;5"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "quizScoreLabel",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "description",
+          "type": "string",
+          "value": "Noch kein Treffer! Erst wenn ein ein Modul oder ein überbetrieblicher Kurs getroffen wird, wird die jeweilige Beschreibung dazu samt spezifischer Infos angezeigt. Triff erstmal eines der beiden Komponenten... Bis dahin stay tuned. "
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "Score: ",
+      "font": "assets\\Goldman-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 50,
+      "color": {
+        "b": 5,
+        "g": 117,
+        "r": 65
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Score: ",
+        "font": "assets\\Goldman-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 50,
+        "color": "65;117;5"
+      }
+    },
+    {
+      "assetStoreId": "33302f0b615672a2e96316c096e13ad8d7242adba8bd5709538691894f0eae6e",
+      "name": "Button1",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 4
+          },
+          "stringParameters": {
+            "color": "248;231;28"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "content": {}
+    },
+    {
+      "assetStoreId": "33302f0b615672a2e96316c096e13ad8d7242adba8bd5709538691894f0eae6e",
+      "name": "Button4",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 4
+          },
+          "stringParameters": {
+            "color": "248;231;28"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "content": {}
+    },
+    {
+      "assetStoreId": "33302f0b615672a2e96316c096e13ad8d7242adba8bd5709538691894f0eae6e",
+      "name": "Button2",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 4
+          },
+          "stringParameters": {
+            "color": "248;231;28"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "content": {}
+    },
+    {
+      "assetStoreId": "33302f0b615672a2e96316c096e13ad8d7242adba8bd5709538691894f0eae6e",
+      "name": "Button3",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 4
+          },
+          "stringParameters": {
+            "color": "248;231;28"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "content": {}
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "quizScore",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "description",
+          "type": "string",
+          "value": "Noch kein Treffer! Erst wenn ein ein Modul oder ein überbetrieblicher Kurs getroffen wird, wird die jeweilige Beschreibung dazu samt spezifischer Infos angezeigt. Triff erstmal eines der beiden Komponenten... Bis dahin stay tuned. "
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "0",
+      "font": "assets\\Goldman-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 50,
+      "color": {
+        "b": 5,
+        "g": 117,
+        "r": 65
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "assets\\Goldman-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 50,
+        "color": "65;117;5"
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "player"
+      },
+      {
+        "objectName": "heartEmpty"
+      },
+      {
+        "objectName": "heart"
+      },
+      {
+        "objectName": "module"
+      },
+      {
+        "objectName": "uk"
+      },
+      {
+        "objectName": "RightArrow"
+      },
+      {
+        "objectName": "LeftArrow"
+      },
+      {
+        "objectName": "keyboard"
+      },
+      {
+        "objectName": "throwableKeyboard"
+      },
+      {
+        "objectName": "shootControl"
+      },
+      {
+        "objectName": "jumpControl"
+      },
+      {
+        "objectName": "moveControls"
+      },
+      {
+        "objectName": "popupBg"
+      },
+      {
+        "objectName": "CloseRoundButton"
+      },
+      {
+        "objectName": "popupTitle"
+      },
+      {
+        "objectName": "popupText"
+      },
+      {
+        "objectName": "rightControl"
+      },
+      {
+        "objectName": "downControl"
+      },
+      {
+        "objectName": "leftControl"
+      },
+      {
+        "objectName": "popupText2"
+      },
+      {
+        "objectName": "PopupPanel"
+      },
+      {
+        "objectName": "PopupRedPanel"
+      },
+      {
+        "objectName": "BundeslogoPanel"
+      },
+      {
+        "objectName": "ExitButton"
+      },
+      {
+        "objectName": "CountDown"
+      },
+      {
+        "objectName": "quiz"
+      },
+      {
+        "objectName": "quizScoreLabel"
+      },
+      {
+        "objectName": "Button1"
+      },
+      {
+        "objectName": "Button4"
+      },
+      {
+        "objectName": "Button2"
+      },
+      {
+        "objectName": "Button3"
+      },
+      {
+        "objectName": "quizScore"
+      }
+    ]
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "heartCounter",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "name": "random",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "size",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "typ",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "lehrjahr",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "heartCounterBefore",
+      "type": "number",
+      "value": 4
+    },
+    {
+      "name": "ukCounter",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "moduleCounter",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "totalUkCount",
+      "type": "number",
+      "value": 3
+    },
+    {
+      "name": "totalModuleCount",
+      "type": "number",
+      "value": 8
+    },
+    {
+      "name": "keyboardCounter",
+      "type": "number",
+      "value": 4
+    },
+    {
+      "name": "countDownTotalTime",
+      "type": "number",
+      "value": 720
+    },
+    {
+      "name": "countDownSeconds",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "countdownMinutes",
+      "type": "number",
+      "value": 12
+    },
+    {
+      "name": "countDownTxt",
+      "type": "string",
+      "value": "12:00"
+    },
+    {
+      "folded": true,
+      "name": "countDownTxtMMSS",
+      "type": "array",
+      "children": [
+        {
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "type": "string",
+          "value": ":"
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "name": "countDownTime",
+      "type": "array",
+      "children": [
+        {
+          "type": "number",
+          "value": 12
+        },
+        {
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "levelStarted",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "maxRandomQuizIndex",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "randomQuizIndexes",
+      "type": "array",
+      "children": [
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "name": "info",
+      "type": "array",
+      "children": [
+        {
+          "type": "array",
+          "children": [
+            {
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "Modul 117: Informatik- und Netzinfrastruktur für ein kleines Unternehmen realisieren\nIn diesem Modul planst, installierst und testest du ein kleines Netzwerk mit Computern und Druckern. Dabei erstellst du auch Pläne und richtest Datei- und Druckfreigaben ein."
+                },
+                {
+                  "type": "string",
+                  "value": "Modul 122: Abläufe mit einer Scriptsprache automatisieren\nDu automatisierst Abläufe mit Scripts, z. B. für die Systemverwaltung. Dazu planst du den Ablauf, schreibst das Script, testest es und dokumentierst den Einsatz."
+                },
+                {
+                  "type": "string",
+                  "value": "Modul 162: Daten analysieren und modellieren\nDu untersuchst Daten, prüfst ihre Qualität und erstellst daraus ein Datenmodell. Dieses Modell wandelst du dann in ein logisches, relationales Modell um und stellst es übersichtlich dar."
+                },
+                {
+                  "type": "string",
+                  "value": "Modul 106: Datenbanken abfragen, bearbeiten und warten\nDu lernst, Daten gezielt abzufragen, zu bearbeiten und die Datenbank schneller zu machen. Außerdem sicherst du Daten, stellst sie wieder her und schützt sie durch Benutzerrechte."
+                },
+                {
+                  "type": "string",
+                  "value": "Modul 231: Datenschutz und Datensicherheit anwenden\nDu schützt Daten durch passende Sicherheits- und Datenschutzmassnahmen und prüfst, ob Systeme die Regeln einhalten. Dabei lernst du auch die wichtigsten Gesetze und Software-Lösungen kennen."
+                },
+                {
+                  "type": "string",
+                  "value": "Modul 293: Webauftritt erstellen und veröffentlichen\nDu planst, entwickelst und veröffentlichst eine einfache Webseite nach Vorgaben. Dabei arbeitest du mit modernen Webtechnologien und überprüfst die Funktion und Gestaltung."
+                },
+                {
+                  "type": "string",
+                  "value": "Modul 319: Applikationen entwerfen und implementieren\nDu lernst, Probleme zu erkennen, Lösungen zu planen und einfache Programme zu schreiben. Dabei setzt du Programmiergrundlagen, Kontrollstrukturen und Funktionen ein und achtest auf sauberen, gut dokumentierten Code."
+                },
+                {
+                  "type": "string",
+                  "value": "Modul 431: Aufträge im eigenen Berufsumfeld selbstständig durchführen\nIn diesem Modul lernst du, berufliche Aufträge selbstständig zu planen, umzusetzen und zu dokumentieren. Du nutzt passende Methoden und präsentierst das Ergebnis dem Auftraggeber."
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "Modul 106: Datenbanken abfragen, bearbeiten und warten\nDu lernst, Daten gezielt abzufragen, zu bearbeiten und die Datenbank schneller zu machen. Außerdem sicherst du Daten, stellst sie bei Bedarf wieder her und setzt Rechte für den Datenschutz.\n"
+                },
+                {
+                  "type": "string",
+                  "value": "Modul 187: ICT-Arbeitsplatz mit Betriebssystem in Betrieb nehmen\nDu lernst, einen Computer-Arbeitsplatz mit Betriebssystem, Programmen und Netzwerk sicher einzurichten. Dabei prüfst die Hardware, installierst alles nach Vorgabe, behebst Fehler und richtest den Arbeitsplatz ergonomisch ein."
+                },
+                {
+                  "type": "string",
+                  "value": "Modul 216: Internet of Everything-Endgeräte in bestehende Plattform integrieren\nDu wählst passende IoE-Geräte (z. B. smarte Sensoren) aus, richtest sie sicher ein und bindest sie ins Netzwerk ein. Danach testest du die Geräte und dokumentierst die Lösung."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "children": [
+            {
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "Modul 114: Codierungs-, Kompressions- und Verschlüsselungsverfahren einsetzen\nIn diesem Modul lernst du, Daten richtig zu codieren, komprimieren und verschlüsseln. Du wendest sichere Übertragungsverfahren an, erkennst Schwachstellen und vergleichst verschiedene Technologien."
+                },
+                {
+                  "type": "string",
+                  "value": "165 pfl V1 NoSQL-Datenbanken einsetzen"
+                },
+                {
+                  "type": "string",
+                  "value": "254 pfl V3 Geschäftsprozesse im eigenen Berufsumfeld beschreiben"
+                },
+                {
+                  "type": "string",
+                  "value": "0320 pfl V1 Objektorientiert Programmieren"
+                },
+                {
+                  "type": "string",
+                  "value": "322 pfl V1 Benutzerschnittstellen entwerfen und implementieren"
+                },
+                {
+                  "type": "string",
+                  "value": "346 pfl V1 Cloud Lösungen konzipieren und realisieren"
+                },
+                {
+                  "type": "string",
+                  "value": "347 pfl V1 Dienst mit Container anwenden"
+                },
+                {
+                  "type": "string",
+                  "value": "426 pfl V1 Software mit agilen Methoden entwickeln"
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "107 wpfl V1 ICT-Lösungen mit Blockchain Technologie umsetzen"
+                },
+                {
+                  "type": "string",
+                  "value": "109 wpfl V1 Dienste in der Public Cloud betreiben und überwachen"
+                },
+                {
+                  "type": "string",
+                  "value": "190 wpfl V1 Virtualisierungsplattform aufbauen und betreiben"
+                },
+                {
+                  "type": "string",
+                  "value": "210 wpfl V1 Public Cloud für Anwendungen nutzen"
+                },
+                {
+                  "type": "string",
+                  "value": "248 wpfl V1 ICT-Lösungen mit aktuellen Technologien realisieren"
+                },
+                {
+                  "type": "string",
+                  "value": "259 wpfl V1 ICT-Lösungen mit Machine Learning entwickeln"
+                },
+                {
+                  "type": "string",
+                  "value": "294 pfl V1 Frontend einer interaktiven Webapplikation realisieren"
+                },
+                {
+                  "type": "string",
+                  "value": "295 pfl V1 Backend für Applikationen realisieren"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "children": [
+            {
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "183 pfl V3 Applikationssicherheit implementieren"
+                },
+                {
+                  "type": "string",
+                  "value": "306 pfl V4 Kleinprojekte im eigenen Berufsumfeld abwickeln"
+                },
+                {
+                  "type": "string",
+                  "value": "323 pfl V1 Funktional Programmieren"
+                },
+                {
+                  "type": "string",
+                  "value": "450 pfl V1 Applikationen testen"
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "110 wpfl V1 Daten mit Tools analysieren und darstellen"
+                },
+                {
+                  "type": "string",
+                  "value": "185 wpfl V1 Sicherheitsmassnahmen für KMU IT analysieren & implementieren"
+                },
+                {
+                  "type": "string",
+                  "value": "217 wpfl V1 Service für Internet of Everything konzipieren, planen und aufbauen"
+                },
+                {
+                  "type": "string",
+                  "value": "223 wpfl V3 Multi-User-Applikationen objektorientiert realisieren"
+                },
+                {
+                  "type": "string",
+                  "value": "335 wpfl V3 Mobile-Applikation realisieren"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "children": [
+            {
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "241 pfl V1 Innovative ICT-Lösungen initialisieren"
+                },
+                {
+                  "type": "string",
+                  "value": "245 pfl V1 Innovative ICT-Lösungen umsetzen"
+                },
+                {
+                  "type": "string",
+                  "value": "321 pfl V1 Verteilte Systeme programmieren"
+                },
+                {
+                  "type": "string",
+                  "value": "324 pfl V1 DevOps-Prozesse mit Tools unterstützen"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "name": "quizs",
+      "type": "structure",
+      "children": [
+        {
+          "folded": true,
+          "name": "1.lehrjahr",
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 106 Datenbanken abfragen, bearbeiten und warten?"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Data Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": "117 Informatik- und Netzinfrastruktur für ein kleines Unternehmen realisieren"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Network Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 122 Abläufe mit einer Scriptsprache automatisieren?"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Service Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 162 Daten analysieren und modellieren"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Data Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 164 Datenbanken erstellen und Daten einfügen"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Data Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 187 ICT-Arbeitsplatz mit Betriebssystem in Betrieb nehmen"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "System Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 216 Internet of Everything-Endgeräte in bestehende Plattform integrieren"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Network Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 231 Datenschutz und Datensicherheit anwenden"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Security/Risk Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 293 Webauftritt erstellen und veröffentlichen"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Web Engineering"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 319 Applikationen entwerfen und implementieren"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Application Engineering"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 431 Aufträge im eigenen Berufsumfeld selbstständig durchführen"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Project Management"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "2.lehrjahr",
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 106 Datenbanken abfragen, bearbeiten und warten?"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Data Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": "117 Informatik- und Netzinfrastruktur für ein kleines Unternehmen realisieren"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Network Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 122 Abläufe mit einer Scriptsprache automatisieren?"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Service Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 162 Daten analysieren und modellieren"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Data Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 164 Datenbanken erstellen und Daten einfügen"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Data Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 187 ICT-Arbeitsplatz mit Betriebssystem in Betrieb nehmen"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "System Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 216 Internet of Everything-Endgeräte in bestehende Plattform integrieren"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Network Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 231 Datenschutz und Datensicherheit anwenden"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Security/Risk Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 293 Webauftritt erstellen und veröffentlichen"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Web Engineering"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 319 Applikationen entwerfen und implementieren"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Application Engineering"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 431 Aufträge im eigenen Berufsumfeld selbstständig durchführen"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Project Management"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "3.lehrjahr",
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 106 Datenbanken abfragen, bearbeiten und warten?"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Data Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": "117 Informatik- und Netzinfrastruktur für ein kleines Unternehmen realisieren"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Network Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 122 Abläufe mit einer Scriptsprache automatisieren?"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Service Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 162 Daten analysieren und modellieren"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Data Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 164 Datenbanken erstellen und Daten einfügen"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Data Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 187 ICT-Arbeitsplatz mit Betriebssystem in Betrieb nehmen"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "System Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 216 Internet of Everything-Endgeräte in bestehende Plattform integrieren"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Network Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 231 Datenschutz und Datensicherheit anwenden"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Security/Risk Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 293 Webauftritt erstellen und veröffentlichen"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Web Engineering"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 319 Applikationen entwerfen und implementieren"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Application Engineering"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 431 Aufträge im eigenen Berufsumfeld selbstständig durchführen"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Project Management"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "4.lehrjahr",
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 106 Datenbanken abfragen, bearbeiten und warten?"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Data Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": "117 Informatik- und Netzinfrastruktur für ein kleines Unternehmen realisieren"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Network Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 122 Abläufe mit einer Scriptsprache automatisieren?"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Service Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 162 Daten analysieren und modellieren"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Data Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 164 Datenbanken erstellen und Daten einfügen"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Data Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 187 ICT-Arbeitsplatz mit Betriebssystem in Betrieb nehmen"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "System Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 216 Internet of Everything-Endgeräte in bestehende Plattform integrieren"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Network Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 231 Datenschutz und Datensicherheit anwenden"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Security/Risk Management"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 293 Webauftritt erstellen und veröffentlichen"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Web Engineering"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 319 Applikationen entwerfen und implementieren"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Application Engineering"
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "structure",
+              "children": [
+                {
+                  "name": "question",
+                  "type": "string",
+                  "value": " 431 Aufträge im eigenen Berufsumfeld selbstständig durchführen"
+                },
+                {
+                  "name": "reply",
+                  "type": "string",
+                  "value": "Project Management"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "name": "currentQuiz",
+      "type": "array",
+      "children": [
+        {
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "choice",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "name": "question",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "reply",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "choice",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "name": "question",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "reply",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "choice",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "name": "question",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "reply",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "choice",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "0"
+                },
+                {
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "name": "question",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "reply",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "randomQuizIndex",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/startup"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level4"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/untitled-external-events"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/collectgoodies"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/popup"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/advancedjump"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/advancedprojectile"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firebullet"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sticker"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/linearmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/rectanglemovement"
+    }
+  ],
+  "externalLayouts": []
+}

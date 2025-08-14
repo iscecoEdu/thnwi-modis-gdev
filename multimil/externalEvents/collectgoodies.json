@@ -1,0 +1,434 @@
+{
+  "associatedLayout": "level1",
+  "name": "collectGoodies",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "FindingObjects\n"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player",
+                "module",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "BoundingBoxTop"
+                  },
+                  "parameters": [
+                    "module",
+                    ">=",
+                    "player.BoundingBoxBottom()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BoundingBoxBottom"
+                  },
+                  "parameters": [
+                    "module",
+                    "<=",
+                    "player.BoundingBoxTop()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "player",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AdvancedJump::DiveDash::IsDiving"
+                  },
+                  "parameters": [
+                    "player",
+                    "DiveDash",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Down\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "keyboardCounter",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "moduleCounter",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "moduleCounterText",
+            "Text",
+            "=",
+            "\"Module: \" + moduleCounter + \"/\" + totalModuleCount"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "typ",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "size",
+            "=",
+            "VariableChildCount(infomx[lehrjahr][typ])"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "random",
+            "=",
+            "Random(size - 1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "random",
+            "=",
+            "Random(size - 1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "popupText2",
+            "Text",
+            "=",
+            "info[lehrjahr][typ][0]"
+          ]
+        },
+        {
+          "type": {
+            "value": "PopUp::DisplayInfosPopup"
+          },
+          "parameters": [
+            "",
+            "lehrjahr",
+            "typ",
+            "popupText2.description",
+            "PopupRedPanel",
+            "popupText2",
+            "ExitButton",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "RemoveVariableAt"
+          },
+          "parameters": [
+            "info[lehrjahr][typ]",
+            "Variable(random)"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "module",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player",
+                "uk",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "BoundingBoxTop"
+                  },
+                  "parameters": [
+                    "uk",
+                    ">=",
+                    "player.BoundingBoxBottom()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BoundingBoxBottom"
+                  },
+                  "parameters": [
+                    "uk",
+                    "<=",
+                    "player.BoundingBoxTop()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "player",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AdvancedJump::DiveDash::IsDiving"
+                  },
+                  "parameters": [
+                    "player",
+                    "DiveDash",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "ukCounter",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "heartCounterBefore",
+            "=",
+            "heartCounter"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "heartCounter",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "ukCounterText",
+            "Text",
+            "=",
+            "\"Uk: \" + ukCounter + \"/\" + totalUkCount"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "typ",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "size",
+            "=",
+            "VariableChildCount(infomx[lehrjahr][typ])"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "random",
+            "=",
+            "Random(size - 1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "popupText2",
+            "Text",
+            "=",
+            "info[lehrjahr][typ][random]"
+          ]
+        },
+        {
+          "type": {
+            "value": "PopUp::DisplayInfosPopup"
+          },
+          "parameters": [
+            "",
+            "lehrjahr",
+            "typ",
+            "popupText2.description",
+            "PopupRedPanel",
+            "popupText2",
+            "ExitButton",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "RemoveVariableAt"
+          },
+          "parameters": [
+            "info[lehrjahr][typ]",
+            "Variable(random)"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "uk",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ]
+}

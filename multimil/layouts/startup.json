@@ -1,0 +1,3178 @@
+{
+  "b": 255,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "startup",
+  "name": "startup",
+  "r": 255,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 255,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.5117784035210184,
+    "windowMask": false
+  },
+  "objectsGroups": [
+    {
+      "name": "text",
+      "objects": [
+        {
+          "name": "title"
+        },
+        {
+          "name": "description"
+        }
+      ]
+    },
+    {
+      "name": "button_text",
+      "objects": [
+        {
+          "name": "api_button_text"
+        },
+        {
+          "name": "ple_button_text"
+        }
+      ]
+    },
+    {
+      "name": "button_api",
+      "objects": [
+        {
+          "name": "button_bg_api"
+        },
+        {
+          "name": "api_button_text"
+        }
+      ]
+    },
+    {
+      "name": "button_ple",
+      "objects": [
+        {
+          "name": "button_bg_ple"
+        },
+        {
+          "name": "ple_button_text"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 59,
+      "keepRatio": true,
+      "layer": "",
+      "name": "title",
+      "persistentUuid": "5a14f395-5b70-4172-857b-3d7a5353cd74",
+      "width": 471,
+      "x": 233,
+      "y": 190,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "keepRatio": true,
+      "layer": "",
+      "name": "description",
+      "persistentUuid": "d7918a3c-0d98-4700-a7f9-af8950a5d196",
+      "width": 1216,
+      "x": 32,
+      "y": 640,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1.3333333333333333,
+      "height": 128,
+      "layer": "",
+      "name": "api_button_text",
+      "persistentUuid": "0cd9d4dd-ce71-4acf-9fe6-5363d6b3ed6b",
+      "width": 544,
+      "x": 192,
+      "y": 928,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "button_bg_api",
+      "persistentUuid": "0b4f77c4-9350-46c4-a29c-b9d7c6cdbca5",
+      "width": 736,
+      "x": 96,
+      "y": 864,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ple_button_text",
+      "persistentUuid": "3fb0789d-530e-425b-933d-147bf9e9c727",
+      "width": 544,
+      "x": 160,
+      "y": 1088,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "button_bg_ple",
+      "persistentUuid": "1ad5b650-2192-4fd7-bf12-8bfe06d6764d",
+      "width": 736,
+      "x": 96,
+      "y": 1024,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "Titel",
+      "name": "BundeslogoPanel",
+      "persistentUuid": "01178e57-f8b0-407e-bad9-fe43409aa922",
+      "width": 384,
+      "x": 32,
+      "y": 32,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Titel",
+      "name": "TopHack",
+      "persistentUuid": "f4eb022f-dfae-48f8-9e30-b77ebbef4c07",
+      "width": 0,
+      "x": 192,
+      "y": 192,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "title",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.1,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "TOP  HACK",
+      "font": "4edb48c0d41fb226b138458d9186d2a903e8a36d3014d4fb0ca4e9b8caff372b_Goldman-Bold.ttf",
+      "textAlignment": "center",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "TOP  HACK",
+        "font": "4edb48c0d41fb226b138458d9186d2a903e8a36d3014d4fb0ca4e9b8caff372b_Goldman-Bold.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 60,
+        "color": "255;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "description",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "Starte in die Informatiklehre!\nIn welcher Fachrichtung möchtest du deine Lehre starten?\nKlicke auf die entsprechende Schaltfläche",
+      "font": "21bcfe4bb1045b82ecde51b2c493fc80da9496fb2f12e2e874a799d97505b795_Goldman-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Starte in die Informatiklehre!\nIn welcher Fachrichtung möchtest du deine Lehre starten?\nKlicke auf die entsprechende Schaltfläche",
+        "font": "21bcfe4bb1045b82ecde51b2c493fc80da9496fb2f12e2e874a799d97505b795_Goldman-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "color": "255;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "button_bg_api",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite64",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "api_button_text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "APPLIKATIONS\nENTWICKLER",
+      "font": "assets\\Goldman-Bold.ttf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "APPLIKATIONS\nENTWICKLER",
+        "font": "assets\\Goldman-Bold.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 40,
+        "color": "255;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ple_button_text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "PLATTFORM\nENTWICKLER",
+      "font": "assets\\Goldman-Bold.ttf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "PLATTFORM\nENTWICKLER",
+        "font": "assets\\Goldman-Bold.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 40,
+        "color": "255;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "button_bg_ple",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TopHack",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "TopHack",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack123",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack124",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack125",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack126",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack127",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack128",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack129",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack130",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack131",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack132",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack133",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack134",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack135",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack136",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack137",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack138",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack139",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack140",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack141",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack142",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack143",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack144",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack145",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack146",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack147",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack148",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack149",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack150",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack151",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack152",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack153",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack154",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack155",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack156",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack157",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack158",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack159",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack160",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack161",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack162",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack163",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack164",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack165",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack166",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack167",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack168",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack169",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack170",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack171",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack172",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack173",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack174",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack175",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack176",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack177",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack178",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack179",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack180",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack181",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TopHack182",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 48
+                      },
+                      {
+                        "x": 462,
+                        "y": 427
+                      },
+                      {
+                        "x": 41,
+                        "y": 427
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MILMissionInformatikLehre",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MILMissionInformatikLehre.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 722,
+                        "y": 0
+                      },
+                      {
+                        "x": 722,
+                        "y": 1088
+                      },
+                      {
+                        "x": 0,
+                        "y": 1088
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "title"
+      },
+      {
+        "objectName": "description"
+      },
+      {
+        "objectName": "button_bg_api"
+      },
+      {
+        "objectName": "api_button_text"
+      },
+      {
+        "objectName": "ple_button_text"
+      },
+      {
+        "objectName": "button_bg_ple"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "TopHack"
+      },
+      {
+        "objectName": "MILMissionInformatikLehre"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::SetWrapping"
+          },
+          "parameters": [
+            "text",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::WrappingWidth"
+          },
+          "parameters": [
+            "text",
+            "=",
+            "425"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "description",
+            "AutoTyping",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::SetWrapping"
+          },
+          "parameters": [
+            "button_text",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::WrappingWidth"
+          },
+          "parameters": [
+            "button_text",
+            "=",
+            "550"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "MissionImpossibleTheme.mp3",
+            "",
+            "10",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AutoTyping::AutoTyping::IsFinished"
+          },
+          "parameters": [
+            "title",
+            "AutoTyping",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::WrappingWidth"
+          },
+          "parameters": [
+            "description",
+            "=",
+            "800"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "description",
+            "AutoTyping",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsPressed"
+          },
+          "parameters": [
+            "button_bg_api",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "button_api",
+            "\"level1\"",
+            "\"Effect\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsPressed"
+          },
+          "parameters": [
+            "button_bg_ple",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "button_api",
+            "\"level1\"",
+            "\"Effect\""
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Titel",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "AdvancedJump",
+      "type": "AdvancedJump::AdvancedJump"
+    },
+    {
+      "name": "AdvancedProjectile",
+      "type": "AdvancedProjectile::AdvancedProjectile"
+    },
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "AutoTyping",
+      "type": "AutoTyping::AutoTyping"
+    },
+    {
+      "name": "ButtonFSM",
+      "type": "ButtonStates::ButtonFSM"
+    },
+    {
+      "name": "ButtonObjectEffects",
+      "type": "ButtonStates::ButtonObjectEffects"
+    },
+    {
+      "name": "DiveDash",
+      "type": "AdvancedJump::DiveDash"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "EllipseMovement",
+      "type": "EllipseMovement::EllipseMovement"
+    },
+    {
+      "name": "FireBullet",
+      "type": "FireBullet::FireBullet"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "MultitouchButton",
+      "type": "SpriteMultitouchJoystick::MultitouchButton"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerConfigurationStack",
+      "type": "AdvancedJump::PlatformerConfigurationStack"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "WallJump",
+      "type": "AdvancedJump::WallJump"
+    }
+  ]
+}

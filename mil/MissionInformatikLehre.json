@@ -16874,7 +16874,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::Index"
                   },
                   "parameters": [
-                    "player",
+                    "players",
                     "Animation",
                     "=",
                     "1"
@@ -16885,7 +16885,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::Index"
                   },
                   "parameters": [
-                    "player",
+                    "players",
                     "Animation",
                     "=",
                     "3"
@@ -16896,7 +16896,7 @@
                     "value": "StringObjectVariable"
                   },
                   "parameters": [
-                    "player",
+                    "players",
                     "direction",
                     "=",
                     "\"left\""
@@ -17027,7 +17027,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "player",
+                "players",
                 "QuizMaster",
                 "",
                 "",
@@ -20411,7 +20411,7 @@
               "parameters": [
                 "",
                 "=",
-                "lerp(CameraX(\"\",0)+15, player.X(), .05)",
+                "lerp(CameraX(\"\",0)+15, players.X(), .05)",
                 "",
                 ""
               ]
@@ -20423,7 +20423,7 @@
               "parameters": [
                 "",
                 "=",
-                "lerp(CameraY(\"\",0) - 5, player.Y(), .05)",
+                "lerp(CameraY(\"\",0) - 5, players.Y(), .05)",
                 "",
                 ""
               ]
@@ -20451,7 +20451,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::Index"
                   },
                   "parameters": [
-                    "player",
+                    "players",
                     "Animation",
                     "=",
                     "1"
@@ -20462,7 +20462,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::Index"
                   },
                   "parameters": [
-                    "player",
+                    "players",
                     "Animation",
                     "=",
                     "3"
@@ -20473,7 +20473,7 @@
                     "value": "StringObjectVariable"
                   },
                   "parameters": [
-                    "player",
+                    "players",
                     "direction",
                     "=",
                     "\"left\""
@@ -20500,7 +20500,7 @@
               "parameters": [
                 "",
                 "=",
-                "lerp(CameraX(\"\",0)-30, player.X(), .05)",
+                "lerp(CameraX(\"\",0)-30, players.X(), .05)",
                 "",
                 ""
               ]
@@ -23988,7 +23988,7 @@
               "parameters": [
                 "",
                 "=",
-                "lerp(CameraX(\"\",0)+15, player.X(), .05)",
+                "lerp(CameraX(\"\",0)+15, players.X(), .05)",
                 "",
                 ""
               ]
@@ -24000,7 +24000,7 @@
               "parameters": [
                 "",
                 "=",
-                "lerp(CameraY(\"\",0) - 5, player.Y(), .05)",
+                "lerp(CameraY(\"\",0) - 5, players.Y(), .05)",
                 "",
                 ""
               ]
@@ -24028,7 +24028,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::Index"
                   },
                   "parameters": [
-                    "player",
+                    "players",
                     "Animation",
                     "=",
                     "1"
@@ -24039,7 +24039,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::Index"
                   },
                   "parameters": [
-                    "player",
+                    "players",
                     "Animation",
                     "=",
                     "3"
@@ -24050,7 +24050,7 @@
                     "value": "StringObjectVariable"
                   },
                   "parameters": [
-                    "player",
+                    "players",
                     "direction",
                     "=",
                     "\"left\""
@@ -24077,7 +24077,7 @@
               "parameters": [
                 "",
                 "=",
-                "lerp(CameraX(\"\",0)-30, player.X(), .05)",
+                "lerp(CameraX(\"\",0)-30, players.X(), .05)",
                 "",
                 ""
               ]
@@ -24481,7 +24481,7 @@
                     "value": "StringObjectVariable"
                   },
                   "parameters": [
-                    "player",
+                    "players",
                     "direction",
                     "=",
                     "\"left\""
@@ -24494,10 +24494,10 @@
                     "value": "FireBullet::FireBullet::Fire"
                   },
                   "parameters": [
-                    "player",
+                    "players",
                     "FireBullet",
-                    "player.X()-40",
-                    "player.Y()+50",
+                    "players.X()-40",
+                    "players.Y()+50",
                     "throwableKeyboard",
                     "180",
                     "750",
@@ -24693,7 +24693,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "player",
+                "players",
                 "QuizMaster",
                 "",
                 "",
@@ -31502,7 +31502,7 @@
               "parameters": [
                 "",
                 "=",
-                "lerp(CameraX(\"\",0)+15, player.X(), .05)",
+                "lerp(CameraX(\"\",0)+15, players.X(), .05)",
                 "",
                 ""
               ]
@@ -31514,7 +31514,7 @@
               "parameters": [
                 "",
                 "=",
-                "lerp(CameraY(\"\",0) - 5, player.Y(), .05)",
+                "lerp(CameraY(\"\",0) - 5, players.Y(), .05)",
                 "",
                 ""
               ]
@@ -31542,7 +31542,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::Index"
                   },
                   "parameters": [
-                    "player",
+                    "players",
                     "Animation",
                     "=",
                     "1"
@@ -31553,7 +31553,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::Index"
                   },
                   "parameters": [
-                    "player",
+                    "players",
                     "Animation",
                     "=",
                     "3"
@@ -31564,7 +31564,7 @@
                     "value": "StringObjectVariable"
                   },
                   "parameters": [
-                    "player",
+                    "players",
                     "direction",
                     "=",
                     "\"left\""
@@ -31591,7 +31591,7 @@
               "parameters": [
                 "",
                 "=",
-                "lerp(CameraX(\"\",0)-30, player.X(), .05)",
+                "lerp(CameraX(\"\",0)-30, players.X(), .05)",
                 "",
                 ""
               ]
@@ -31695,7 +31695,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "player",
+                "players",
                 "QuizMaster",
                 "",
                 "",

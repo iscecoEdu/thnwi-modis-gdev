@@ -1,0 +1,7563 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "level4",
+  "name": "level4",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "1. Lehrjahr: Basisjahr ausserhalb des Betriebs",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 64,
+    "gridHeight": 64,
+    "gridDepth": 32,
+    "gridOffsetX": 9,
+    "gridOffsetY": 63,
+    "gridOffsetZ": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.5963714163014773,
+    "windowMask": false,
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
+  },
+  "objectsGroups": [
+    {
+      "name": "platforms",
+      "objects": [
+        {
+          "name": "wallBlock"
+        }
+      ]
+    },
+    {
+      "name": "popup",
+      "objects": [
+        {
+          "name": "popupBg"
+        },
+        {
+          "name": "popupTitle"
+        },
+        {
+          "name": "popupText"
+        },
+        {
+          "name": "CloseRoundButton"
+        }
+      ]
+    },
+    {
+      "name": "controls",
+      "objects": [
+        {
+          "name": "rightControl"
+        },
+        {
+          "name": "downControl"
+        },
+        {
+          "name": "jumpControl"
+        },
+        {
+          "name": "leftControl"
+        }
+      ]
+    },
+    {
+      "name": "Buttons",
+      "objects": [
+        {
+          "name": "Button1"
+        },
+        {
+          "name": "Button2"
+        },
+        {
+          "name": "Button3"
+        },
+        {
+          "name": "Button4"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "folded": true,
+      "name": "info",
+      "persistentUuid": "18e1d78f-d740-4162-a6e3-c9ba4399a6d7",
+      "type": "array",
+      "children": [
+        {
+          "folded": true,
+          "persistentUuid": "720a6a05-f68b-4ff0-897a-9ec0891ac9fb",
+          "type": "array",
+          "children": [
+            {
+              "persistentUuid": "8bcc5e4d-34b1-493e-b3fd-a8ccf3e59a44",
+              "type": "array",
+              "children": [
+                {
+                  "persistentUuid": "4194c990-8253-4cd9-94c0-a0e409564b4c",
+                  "type": "string",
+                  "value": "Modul 241: Innovative ICT-Lösungen initialisieren.\nDu entwickelst kreative Ideen für Probleme einer bestimmten Zielgruppe und präsentierst sie kurz und überzeugend vor Fachpersonen."
+                },
+                {
+                  "persistentUuid": "9a661bb8-21b4-472e-aa01-fd9eceb47a4c",
+                  "type": "string",
+                  "value": "Modul 245: Innovative ICT-Lösungen umsetzen.\nDu baust einen ersten funktionierenden Prototyp (Proof of Concept) auf Basis einer Idee und präsentierst diesen in einem kurzen Pitch."
+                },
+                {
+                  "persistentUuid": "e8114746-19d8-490c-accf-c6a8674a2eee",
+                  "type": "string",
+                  "value": "Modul 321: Verteilte Systeme programmieren.\nDu programmierst Systeme, bei denen verschiedene Teile auf mehreren Computern gleichzeitig laufen und zusammenarbeiten – z. B. Cloud-Dienste."
+                },
+                {
+                  "persistentUuid": "adf2ad1c-fb6e-4a11-a598-d5f516f0dcb1",
+                  "type": "string",
+                  "value": "Modul 324: DevOps-Prozesse mit Tools unterstützen.\nDu setzt automatisierte Tools ein, um Software schneller zu entwickeln, zu testen und bereitzustellen – sogenannte CI/CD-Prozesse."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "name": "shortinfo",
+      "persistentUuid": "05308f1b-f246-4173-8fa0-61a2173bae4a",
+      "type": "array",
+      "children": [
+        {
+          "persistentUuid": "88faa71b-d698-48bf-a827-81ccd040a7f0",
+          "type": "array",
+          "children": [
+            {
+              "persistentUuid": "07ced990-1a4b-4bcf-bab9-2a6fbc83d4ca",
+              "type": "array",
+              "children": [
+                {
+                  "persistentUuid": "b10e3fc4-8fc3-4c2f-9d8c-145730d3f6a1",
+                  "type": "string",
+                  "value": "Modul 241: Innovative ICT-Ideen entwickeln und überzeugend präsentieren.\n"
+                },
+                {
+                  "persistentUuid": "3c3fac3a-9db3-49a9-aafc-7c1ef801786d",
+                  "type": "string",
+                  "value": "Modul 245: ICT-Prototyp entwickeln und in einem kurzen Pitch präsentieren.\n"
+                },
+                {
+                  "persistentUuid": "a7cf16d5-f4fd-4e07-a2d6-e2b06f458b7f",
+                  "type": "string",
+                  "value": "Modul 321: Verteilte Systeme programmieren und mehrere Computer zusammenarbeiten lassen.\n"
+                },
+                {
+                  "persistentUuid": "a6bc6686-dc22-4f09-b323-98512da696f8",
+                  "type": "string",
+                  "value": "Modul 324: DevOps- und CI/CD-Prozesse automatisieren und unterstützen.\n"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 108,
+      "layer": "Popup",
+      "name": "shootControl",
+      "persistentUuid": "ce768f29-b037-4b2b-b5db-e0a79bc96ab7",
+      "width": 104,
+      "x": 505,
+      "y": 994,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2.95,
+      "height": 118,
+      "keepRatio": true,
+      "layer": "Controls",
+      "name": "jumpControl",
+      "persistentUuid": "803409e5-1dab-44a9-8e5d-a2dd23a7ec14",
+      "width": 118,
+      "x": 347,
+      "y": 919,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 2304,
+      "keepRatio": true,
+      "layer": "",
+      "name": "wallBlock",
+      "persistentUuid": "756c5fe7-9e74-4c9a-a020-8746950a90d8",
+      "width": 128,
+      "x": -1079,
+      "y": -1025,
+      "zOrder": 64,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "wallBlock",
+      "persistentUuid": "759c3bb3-3aec-4c6c-a9bf-a99931c13559",
+      "width": 2944,
+      "x": -951,
+      "y": -1025,
+      "zOrder": 54,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 2304,
+      "keepRatio": true,
+      "layer": "",
+      "name": "wallBlock",
+      "persistentUuid": "8a2203b3-7f8a-48a2-970a-8a2c4761d4ea",
+      "width": 128,
+      "x": 1993,
+      "y": -1025,
+      "zOrder": 1000,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0.7195121951219512,
+      "height": 118,
+      "keepRatio": true,
+      "layer": "Controls",
+      "name": "rightControl",
+      "persistentUuid": "50b947c9-0b6b-4ad4-bb31-ecf78cb52a54",
+      "width": 118,
+      "x": 172,
+      "y": 992,
+      "zOrder": 58,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 0.7375,
+      "height": 118,
+      "keepRatio": true,
+      "layer": "Controls",
+      "name": "downControl",
+      "persistentUuid": "05ae18c2-d2d6-41b6-a8f9-83093315ba18",
+      "width": 118,
+      "x": 353,
+      "y": 1080,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0.7239263803680981,
+      "height": 115.10429447852759,
+      "keepRatio": true,
+      "layer": "Controls",
+      "name": "leftControl",
+      "persistentUuid": "04c202e2-7b12-418c-81ad-730727e91797",
+      "width": 118,
+      "x": 9,
+      "y": 994,
+      "zOrder": 58,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "Informations",
+      "name": "BundeslogoPanel",
+      "persistentUuid": "b3b591ea-38a4-4b1f-82f7-42e9070ac4c2",
+      "width": 384,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 36,
+      "layer": "Informations",
+      "name": "CountDown",
+      "persistentUuid": "d8514658-b977-4b0a-918f-27e86d5dbdb2",
+      "width": 450,
+      "x": -184,
+      "y": 123,
+      "zOrder": 79,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "keepRatio": true,
+      "layer": "",
+      "name": "QuizMaster",
+      "persistentUuid": "af332e9d-0ff3-4ef0-a5c1-c2d99826ff23",
+      "width": 64,
+      "x": 457,
+      "y": -865,
+      "zOrder": 83,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 2304,
+      "keepRatio": true,
+      "layer": "",
+      "locked": true,
+      "name": "Matterhorn_background",
+      "persistentUuid": "5ded3316-cbd7-4c11-a534-344c7bc0e5ac",
+      "width": 2944,
+      "x": -951,
+      "y": -1409,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "4f393df4-1019-4268-917d-a75474cdd46f",
+      "width": 0,
+      "x": -951,
+      "y": 1087,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "983ff932-5f27-40c1-94af-11a2c3827d85",
+      "width": 0,
+      "x": -631,
+      "y": 1087,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "8fc5bcf4-7ea7-489c-a997-e694960a5a2c",
+      "width": 0,
+      "x": -311,
+      "y": 1087,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "8e3c4155-26f2-455d-97c6-6844ea2f9c31",
+      "width": 0,
+      "x": 9,
+      "y": 1087,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "116360c5-6c3e-40fc-8643-349233971d67",
+      "width": 0,
+      "x": 329,
+      "y": 1087,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "5befdfed-330a-4bc4-96d6-753f98c9fef7",
+      "width": 0,
+      "x": 649,
+      "y": 1087,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "50328ed6-f127-4727-a22b-e3936eeb7ae9",
+      "width": 0,
+      "x": 969,
+      "y": 1087,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "d90d0fca-5d21-434a-a37d-74979e1efb24",
+      "width": 0,
+      "x": 1289,
+      "y": 1087,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "ed0ec0b8-e979-4496-82e4-6d1db165712c",
+      "width": 0,
+      "x": 1609,
+      "y": 1087,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "c7a1ba22-a3cc-4aa3-935c-96c5b863f2fe",
+      "width": 64,
+      "x": 1929,
+      "y": 1087,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "b4966db2-1a7f-41a0-b873-86034ff92e0a",
+      "width": 0,
+      "x": -951,
+      "y": 1151,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "05418e37-6210-48c8-ba93-d9f88abe7072",
+      "width": 0,
+      "x": -631,
+      "y": 1151,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "151eb612-1a8d-4e11-b8c4-e745e02951f2",
+      "width": 0,
+      "x": -311,
+      "y": 1151,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "cbd0b258-a687-43f3-a825-99fe9635d2f2",
+      "width": 0,
+      "x": 9,
+      "y": 1151,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "fd02d114-f35b-4cd5-a3bf-008e8b6b2335",
+      "width": 0,
+      "x": 329,
+      "y": 1151,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "9748cc63-8216-4339-94ce-f717a0062f27",
+      "width": 0,
+      "x": 649,
+      "y": 1151,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "c4a9f03d-8cfc-4299-adb4-c10b3e7067de",
+      "width": 0,
+      "x": 969,
+      "y": 1151,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "76f49dd2-80b9-4f40-9bfc-190b1f9debba",
+      "width": 0,
+      "x": 1289,
+      "y": 1151,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "e938d45e-3c6c-4c7c-b4d6-ab1913efae59",
+      "width": 0,
+      "x": 1609,
+      "y": 1151,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "cef75c1c-404a-475c-b22a-8bf21c9ea339",
+      "width": 64,
+      "x": 1929,
+      "y": 1151,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "a2b5faa9-5ef0-42bb-8af6-ea15689b31af",
+      "width": 0,
+      "x": -951,
+      "y": 1215,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "8ad213cf-65b5-41bf-b7fe-c116263cc738",
+      "width": 0,
+      "x": -631,
+      "y": 1215,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "ea72bc25-bbd9-47a6-9e4c-aac19c72c8ca",
+      "width": 0,
+      "x": -311,
+      "y": 1215,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "baa23785-c27e-428a-8a56-c1c40c9b47b7",
+      "width": 0,
+      "x": 9,
+      "y": 1215,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "8fe80771-41ee-4800-a76a-aff617bf0877",
+      "width": 0,
+      "x": 329,
+      "y": 1215,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "215a0f71-29e8-474c-8094-01e95d015bd7",
+      "width": 0,
+      "x": 649,
+      "y": 1215,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "9c725784-7de1-400e-a0b6-d7b06d266e29",
+      "width": 0,
+      "x": 969,
+      "y": 1215,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "084788bc-b15a-405f-9a33-bd5ea1a07e19",
+      "width": 0,
+      "x": 1289,
+      "y": 1215,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "e3b7ced9-f008-415e-8f7c-e654496892d3",
+      "width": 0,
+      "x": 1609,
+      "y": 1215,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "9f5d8b87-28c3-4a88-bc9e-1ce94fb00cf8",
+      "width": 64,
+      "x": 1929,
+      "y": 1215,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "0298b6b6-2350-41d7-b85d-96097be4cccd",
+      "width": 0,
+      "x": -951,
+      "y": 895,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "171ac042-e6fd-4030-81e7-e1d027283696",
+      "width": 0,
+      "x": -631,
+      "y": 895,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "6098fd11-c23f-479c-bb45-3042f7c91532",
+      "width": 0,
+      "x": -311,
+      "y": 895,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "950cdb3b-287c-469e-83e8-410b18ed93b7",
+      "width": 0,
+      "x": 9,
+      "y": 895,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "838173c1-7978-43b9-93d2-2e2c6ded950f",
+      "width": 0,
+      "x": 329,
+      "y": 895,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "db6d732c-2cf0-4c1e-9ea6-13028b3dd1ea",
+      "width": 0,
+      "x": 649,
+      "y": 895,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "31104070-85ad-470a-b4a4-eca24c1217c0",
+      "width": 0,
+      "x": 969,
+      "y": 895,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "b6133086-378e-4f2c-b6e8-416344625d88",
+      "width": 0,
+      "x": 1289,
+      "y": 895,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "58e97a80-f43e-4a47-a66a-8509df0cf2f9",
+      "width": 0,
+      "x": 1609,
+      "y": 895,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "efaa6921-5aa8-4d14-a0f6-c722e89968de",
+      "width": 64,
+      "x": 1929,
+      "y": 895,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "433c01b3-c629-4f04-a924-dc963517ce05",
+      "width": 0,
+      "x": -951,
+      "y": 959,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "621e44cc-c95d-42ab-898c-d6b0f940d554",
+      "width": 0,
+      "x": -631,
+      "y": 959,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "f33ba522-704c-402a-b15f-a5148c821db7",
+      "width": 0,
+      "x": -311,
+      "y": 959,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "ee503848-6f80-4a21-b0be-59052bf9f498",
+      "width": 0,
+      "x": 9,
+      "y": 959,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "1d68b512-f50e-41ff-9050-9bc8419494f2",
+      "width": 0,
+      "x": 329,
+      "y": 959,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "f30954ee-df98-4cee-94d2-0f248ccd776b",
+      "width": 0,
+      "x": 649,
+      "y": 959,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "f27a70d1-25f3-46b0-a62e-27353203eb81",
+      "width": 0,
+      "x": 969,
+      "y": 959,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "f52c6459-0bac-481a-a6ad-96e14b4918b0",
+      "width": 0,
+      "x": 1289,
+      "y": 959,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "63d8c685-bb66-4bec-8d85-6f532ac9bebf",
+      "width": 0,
+      "x": 1609,
+      "y": 959,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "be8fadc8-c0e7-4876-bde0-5c1181af7b2f",
+      "width": 64,
+      "x": 1929,
+      "y": 959,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "5c885440-aa4c-4f44-8763-7a190cda6223",
+      "width": 0,
+      "x": -951,
+      "y": 1023,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "3cd18b97-f6b2-4a50-8eb9-3655fbe53a7c",
+      "width": 0,
+      "x": -631,
+      "y": 1023,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "b1b2323b-acc5-4774-a786-0a80779c43f7",
+      "width": 0,
+      "x": -311,
+      "y": 1023,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "32b0d23b-f299-4028-a95a-143f77fa0376",
+      "width": 0,
+      "x": 9,
+      "y": 1023,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 77,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "31f941d3-f234-4fae-af36-e86afa989475",
+      "width": 325,
+      "x": 325,
+      "y": 1016,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "d081a166-cad2-4810-8753-aa851914d593",
+      "width": 0,
+      "x": 649,
+      "y": 1023,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "49dba0c5-564d-446f-9219-5bcc8e9d8a33",
+      "width": 0,
+      "x": 969,
+      "y": 1023,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "658e740e-87ba-4365-a919-a6cdbc36f590",
+      "width": 0,
+      "x": 1289,
+      "y": 1023,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "a83715c4-341c-46d0-82d6-b8c0d65d2e08",
+      "width": 0,
+      "x": 1609,
+      "y": 1023,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "31cea8db-ec7f-41ae-a69a-2970f76b750d",
+      "width": 64,
+      "x": 1929,
+      "y": 1023,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite_5x1",
+      "persistentUuid": "e5fce708-598a-44f8-bc26-08f305434e6e",
+      "width": 0,
+      "x": -950,
+      "y": 703,
+      "zOrder": 109,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite_5x1",
+      "persistentUuid": "11d320cb-efef-4f68-96ad-7e0efb8dea13",
+      "width": 0,
+      "x": -951,
+      "y": 831,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite_5x1",
+      "persistentUuid": "7dcdafae-819d-4bd2-ba4d-c6c1c2dbb059",
+      "width": 0,
+      "x": -631,
+      "y": 831,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite_5x1",
+      "persistentUuid": "30b49667-f81e-46d7-8f09-f4d0aa3d691d",
+      "width": 0,
+      "x": -311,
+      "y": 831,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite_5x1",
+      "persistentUuid": "e11119fa-ac5d-4850-9c07-19e1a7732d0d",
+      "width": 0,
+      "x": 329,
+      "y": 831,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite_5x1",
+      "persistentUuid": "c035adf8-13c8-45b4-b825-543d1396e45d",
+      "width": 0,
+      "x": 649,
+      "y": 831,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite_5x1",
+      "persistentUuid": "6e4b2078-b723-4efb-a24d-e6bb31593387",
+      "width": 0,
+      "x": 969,
+      "y": 831,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite_5x1",
+      "persistentUuid": "d9d88bf3-6875-4a4c-a793-3033a95ac07e",
+      "width": 0,
+      "x": 1289,
+      "y": 831,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite_5x1",
+      "persistentUuid": "644a5890-fa67-4e40-9f57-95422def376a",
+      "width": 0,
+      "x": -631,
+      "y": 767,
+      "zOrder": 111,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite_5x1",
+      "persistentUuid": "3d35bb5b-961c-423e-ab38-62de917ac758",
+      "width": 0,
+      "x": -311,
+      "y": 767,
+      "zOrder": 112,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite_5x1",
+      "persistentUuid": "652731b3-e123-4b4b-8181-3c10cb485c51",
+      "width": 0,
+      "x": 649,
+      "y": 767,
+      "zOrder": 115,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite_5x1",
+      "persistentUuid": "8ed117f6-e07e-4504-acbc-0c751b18db3c",
+      "width": 0,
+      "x": 969,
+      "y": 767,
+      "zOrder": 116,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite_5x1",
+      "persistentUuid": "ae211ff9-5cfe-4e55-993c-e66c3e3f7856",
+      "width": 0,
+      "x": 1289,
+      "y": 767,
+      "zOrder": 117,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite_5x1",
+      "persistentUuid": "c8d7d938-e4d9-4fec-aec2-ca31a77311fb",
+      "width": 0,
+      "x": -951,
+      "y": 767,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "8bfa223d-ce0c-4269-92a1-128bef0711f0",
+      "width": 64,
+      "x": -631,
+      "y": 703,
+      "zOrder": 1001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "4ce1045c-fc9d-47e3-aa1d-d79f364ca608",
+      "width": 64,
+      "x": -567,
+      "y": 703,
+      "zOrder": 1001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "85dc3c64-d7d7-4e70-8d79-50b8c84292c9",
+      "width": 64,
+      "x": -631,
+      "y": 767,
+      "zOrder": 1002,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "add66b99-cf11-491c-b3b0-0af64c661269",
+      "width": 64,
+      "x": -567,
+      "y": 767,
+      "zOrder": 1002,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "256b1d0a-44d2-48ef-8beb-3e23bd562701",
+      "width": 64,
+      "x": 265,
+      "y": 703,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "4f1b282e-cf58-4d20-98f9-25d20c0f92de",
+      "width": 82,
+      "x": 311,
+      "y": 575,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "639a076c-aaca-43f5-8a6a-fddd03a91a4a",
+      "width": 95,
+      "x": 362,
+      "y": 511,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "e38c9449-7bc9-43d2-af64-a154ab559f2b",
+      "width": 64,
+      "x": 457,
+      "y": 447,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "bd7e4f5d-fa47-4834-ab29-747f09d99fb6",
+      "width": 64,
+      "x": 521,
+      "y": 511,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "6aba8d9c-3571-4b8e-81d0-1b23c44e685b",
+      "width": 64,
+      "x": 585,
+      "y": 639,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "5fe6aaab-6b84-4489-a195-faf9806dd319",
+      "width": 83,
+      "x": 310,
+      "y": 639,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "a0f6b5f1-a6d1-407f-8b24-503d77e122df",
+      "width": 64,
+      "x": 457,
+      "y": 511,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "baf4e741-fe4a-4dd7-87b5-8a9a0e5271bb",
+      "width": 64,
+      "x": 393,
+      "y": 575,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "93acbb8e-0d4b-4d3b-983f-ac2aee07eb33",
+      "width": 64,
+      "x": 457,
+      "y": 575,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "89cae507-3054-4209-901d-e2f27e540c10",
+      "width": 64,
+      "x": 393,
+      "y": 639,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "3705b4d3-9400-4337-8b41-57dbe2817f00",
+      "width": 64,
+      "x": 457,
+      "y": 639,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "3350106e-2883-4763-aa4e-86d89d6bc35e",
+      "width": 64,
+      "x": 521,
+      "y": 639,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite_5x1",
+      "persistentUuid": "c7156f33-6bdd-44ba-813f-612f8eacc3a9",
+      "width": 0,
+      "x": 329,
+      "y": 703,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "1f2a3d55-2329-4ee6-92ae-b1a0c1e6e918",
+      "width": 64,
+      "x": 521,
+      "y": 575,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite_5x1",
+      "persistentUuid": "71499f14-1fcd-451f-98b8-a55b343373ca",
+      "width": 0,
+      "x": 329,
+      "y": 767,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "3d1fa83b-289e-4cd4-9dd3-09cd3a756331",
+      "width": 64,
+      "x": 265,
+      "y": 767,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "85034831-6971-47ea-abd4-8bbbe8409695",
+      "width": 64,
+      "x": 200,
+      "y": 767,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "2fe8f35e-b66b-4490-afcb-e51fbbfa92eb",
+      "width": 64,
+      "x": 201,
+      "y": 831,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "10492351-e344-4249-accd-544d07c4dc8c",
+      "width": 64,
+      "x": 137,
+      "y": 831,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "19cc32b2-977a-4456-b648-72ffd75e7d67",
+      "width": 64,
+      "x": 137,
+      "y": 767,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "c0fede48-0d2c-4731-974f-b6f4c1efb1b2",
+      "width": 64,
+      "x": 73,
+      "y": 831,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "500cc83d-22f4-424b-a1ad-a6c50a6915fb",
+      "width": 64,
+      "x": 201,
+      "y": 895,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "42052a19-782d-4bde-a114-e3dde867a163",
+      "width": 110,
+      "x": 91,
+      "y": 959,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "63bf9fd1-bdfa-41b1-9995-8e7bfb1d4143",
+      "width": 64,
+      "x": -119,
+      "y": 1022,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "ce544571-3c22-4597-bfc5-f8c0f0bb9f16",
+      "width": 64,
+      "x": 9,
+      "y": 1087,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "39c91b30-1372-4355-99ed-e9fb8051f5e6",
+      "width": 64,
+      "x": 73,
+      "y": 1087,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "cbe2bc98-0c9a-49a9-a021-8a07a11d62d6",
+      "width": 107,
+      "x": 94,
+      "y": 1023,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "d4b7319c-dbdc-4557-8b89-d6fa0ba6e3c0",
+      "width": 64,
+      "x": 9,
+      "y": 767,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "11a47c25-6395-4063-9e61-b2575ec1aee2",
+      "width": 64,
+      "x": 73,
+      "y": 767,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "2ab794a0-3aed-4297-8676-1ef78e14ce13",
+      "width": 64,
+      "x": 265,
+      "y": 831,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite_5x1",
+      "persistentUuid": "02644fe5-76e9-43ae-9201-27a2f2692be3",
+      "width": 0,
+      "x": 585,
+      "y": 191,
+      "zOrder": 1003,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "2bef9627-aede-4938-a890-49dcc80e8db4",
+      "width": 64,
+      "x": -55,
+      "y": 447,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "3d9318ba-63ec-4642-9691-abbab0d7cfb8",
+      "width": 64,
+      "x": -119,
+      "y": 447,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "a992f527-61dd-4efe-b693-130cf1e53598",
+      "width": 64,
+      "x": -183,
+      "y": 383,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "a135db03-b1fb-428b-b846-bc94f4677150",
+      "width": 64,
+      "x": -247,
+      "y": 383,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RightArrow",
+      "persistentUuid": "75195a6e-e15a-4b83-a89f-8c4fe98cd098",
+      "width": 0,
+      "x": -321,
+      "y": 344,
+      "zOrder": 1006,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "LeftArrow",
+      "persistentUuid": "77dcd72c-913c-4435-9455-7dd7a1c00261",
+      "width": 0,
+      "x": -127,
+      "y": 347,
+      "zOrder": 1007,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "9849e088-f054-4fb0-afec-928d2e08ea69",
+      "width": 64,
+      "x": 905,
+      "y": -65,
+      "zOrder": 1008,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "ef667caf-3301-40c5-990c-b227af49c9b5",
+      "width": 64,
+      "x": 905,
+      "y": -129,
+      "zOrder": 1009,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "15c8168c-06d5-4f52-aaee-9981ff560ea2",
+      "width": 64,
+      "x": 1033,
+      "y": -65,
+      "zOrder": 1009,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "93c5dfb6-58d3-4fc7-aad2-4d0617c24209",
+      "width": 64,
+      "x": 1097,
+      "y": -65,
+      "zOrder": 1009,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "a7f29a24-be10-4382-8f91-9044ad1460db",
+      "width": 64,
+      "x": 841,
+      "y": -129,
+      "zOrder": 1009,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "955365fe-1014-431d-abac-80cfd3cf7a96",
+      "width": 64,
+      "x": 969,
+      "y": 127,
+      "zOrder": 1009,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "450371bd-ccc8-4cec-b2ee-f4385d0852a5",
+      "width": 64,
+      "x": 1033,
+      "y": -257,
+      "zOrder": 1009,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "217c29fb-8bd7-4d71-8cd1-46f60faf3daf",
+      "width": 64,
+      "x": 1097,
+      "y": -257,
+      "zOrder": 1009,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "7d8d1547-ae7d-4172-95df-d4ecdd8d4043",
+      "width": 64,
+      "x": 777,
+      "y": -129,
+      "zOrder": 1009,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite_5x1",
+      "persistentUuid": "09dedcbf-a113-4b50-b07f-6282172794b5",
+      "width": 0,
+      "x": 1673,
+      "y": 703,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite_5x1",
+      "persistentUuid": "52adb6e3-4efc-45d0-a3fe-4b818b2fa6c7",
+      "width": 0,
+      "x": 1673,
+      "y": 767,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "701c38c5-f6fd-4060-a0a6-a342c6d1ac63",
+      "width": 64,
+      "x": 1609,
+      "y": 767,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RightArrow",
+      "persistentUuid": "196c294e-8789-4086-84fc-36ce381007fa",
+      "width": 0,
+      "x": 643,
+      "y": 722,
+      "zOrder": 1012,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "LeftArrow",
+      "persistentUuid": "35f61122-bf74-4f00-ad0e-6d06208dbd68",
+      "width": 0,
+      "x": 1666,
+      "y": 719,
+      "zOrder": 1013,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "9aa3e719-50b4-49d0-98d0-3734cf4707dd",
+      "width": 64,
+      "x": 1737,
+      "y": 831,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "7a3bde6f-c6b0-42fd-8de0-ddc44c6442db",
+      "width": 64,
+      "x": 1929,
+      "y": 831,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "3c7479d6-9d06-44d4-9ded-26f102e0ed68",
+      "width": 64,
+      "x": 1865,
+      "y": 831,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "38b0d628-af37-45cd-b074-aa491f0787ef",
+      "width": 64,
+      "x": 1801,
+      "y": 831,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "418b0f38-c544-4053-a05a-1eb383ed3385",
+      "width": 64,
+      "x": 1609,
+      "y": 831,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "699a7d8a-b9b8-4f32-8406-fc4f77e36aad",
+      "width": 64,
+      "x": 1673,
+      "y": 831,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "535ee62e-fd2e-4bb8-8d85-bff9e372c943",
+      "width": 64,
+      "x": 1673,
+      "y": 447,
+      "zOrder": 1014,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "2a7a4e03-4583-4922-a0ab-040b60abcc65",
+      "width": 64,
+      "x": 1481,
+      "y": 255,
+      "zOrder": 1014,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "a201db8b-8bfd-458d-832c-30d98ede199f",
+      "width": 64,
+      "x": 1161,
+      "y": -257,
+      "zOrder": 1009,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "013c914c-1713-49ec-860a-8f70e2a9e98e",
+      "width": 64,
+      "x": 1225,
+      "y": -321,
+      "zOrder": 1009,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "58c60364-944e-4107-9835-3e1cdbe35735",
+      "width": 64,
+      "x": 1289,
+      "y": -513,
+      "zOrder": 1009,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "4faec66e-5692-4adc-926c-eb3af20addf5",
+      "width": 64,
+      "x": 1417,
+      "y": -641,
+      "zOrder": 1009,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "031a95c2-c717-48b8-9c63-1522859d4b74",
+      "width": 64,
+      "x": 1481,
+      "y": -641,
+      "zOrder": 1009,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "0e0dad1d-3032-4a2d-943b-abba8bb51554",
+      "width": 64,
+      "x": 1929,
+      "y": -641,
+      "zOrder": 1009,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "module",
+      "persistentUuid": "5d5ccbc3-40c6-413d-bea0-d0f7ce88c846",
+      "width": 64,
+      "x": 1929,
+      "y": 127,
+      "zOrder": 115,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "module",
+      "persistentUuid": "03200bf0-73a5-4e71-8a55-d8be6ab6c4a1",
+      "width": 64,
+      "x": 1929,
+      "y": -833,
+      "zOrder": 1015,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "af4600ee-bdf8-4c7a-9d44-43fecba63083",
+      "width": 64,
+      "x": 1929,
+      "y": -449,
+      "zOrder": 1014,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "5e919d52-e641-4226-9706-da7061d8320c",
+      "width": 76,
+      "x": 1853,
+      "y": -321,
+      "zOrder": 1014,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "4aabb688-cbd0-4e93-ab73-f61216168381",
+      "width": 73,
+      "x": 1792,
+      "y": -257,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "7d16cd9c-c627-4ad9-9b45-ad487a8a48ae",
+      "width": 64,
+      "x": 1737,
+      "y": -129,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "f688d059-50fb-4d39-9089-b3a6986ff83b",
+      "width": 64,
+      "x": 1865,
+      "y": -193,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "9d11d45f-daa8-4b14-9bf4-9a195b9024a4",
+      "width": 64,
+      "x": 1801,
+      "y": 127,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "32442ef6-da46-43c7-836a-44e72cfd9dc6",
+      "width": 64,
+      "x": 1801,
+      "y": 63,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "33c523f2-1943-4c12-8951-395c35e76f76",
+      "width": 64,
+      "x": 1865,
+      "y": 63,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "ae366d3c-0048-4905-8160-034f7581e721",
+      "width": 64,
+      "x": 1865,
+      "y": 127,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "ccfe5c42-a8c9-4f59-a81f-b42a8d73c21a",
+      "width": 64,
+      "x": 1929,
+      "y": 63,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "3d125414-271f-4e2b-9bcd-e1d5f493673e",
+      "width": 64,
+      "x": 1929,
+      "y": 127,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "3651fb9c-c8da-44dd-a949-2b6b4fd2aedb",
+      "width": 64,
+      "x": 1929,
+      "y": -1,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "d1d67d10-225a-4f3c-88ab-e7bba4fd0291",
+      "width": 64,
+      "x": 1929,
+      "y": -65,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "13f85a4f-6539-4307-a976-661f2ab60465",
+      "width": 64,
+      "x": 1865,
+      "y": -1,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "8a5815de-831f-4532-9c1e-1471ffd20b65",
+      "width": 64,
+      "x": 1737,
+      "y": 63,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "40cfe950-9d72-4e89-9610-183aae921996",
+      "width": 64,
+      "x": 1737,
+      "y": -1,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "01e3b454-555d-415a-9e23-3acf9099a747",
+      "width": 64,
+      "x": 1801,
+      "y": -1,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "dd71f8c0-606e-4103-bbe9-bc9ca1bd0740",
+      "width": 64,
+      "x": 1865,
+      "y": -65,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "18a41b88-4817-470b-96f1-183431d8abe9",
+      "width": 64,
+      "x": 1929,
+      "y": -129,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "96335624-0dea-4005-8f04-e0610b7e538a",
+      "width": 64,
+      "x": 1865,
+      "y": -129,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "b4229318-951d-47ec-a642-1efd8406ee97",
+      "width": 64,
+      "x": 1801,
+      "y": -65,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "5d39d851-b17f-4bab-a2bb-39c25e10386d",
+      "width": 64,
+      "x": 1929,
+      "y": -257,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "e9ce8baa-0123-47ee-bd69-69682d38e7c2",
+      "width": 64,
+      "x": 1929,
+      "y": -193,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "5b48c56e-cd2c-443d-b052-faa47faa933e",
+      "width": 64,
+      "x": 1929,
+      "y": 255,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "77123741-9616-49fc-acc0-ce64b35d41cd",
+      "width": 94,
+      "x": 1643,
+      "y": -65,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "249b62ec-8d8d-4d40-9024-5ba003504d74",
+      "width": 91,
+      "x": 1646,
+      "y": -1,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "eef655e2-629e-4eec-bb4d-128f6a862bd6",
+      "width": 64,
+      "x": 1929,
+      "y": -321,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "6cad6b4d-1eee-42d3-ba4e-81c79389e248",
+      "width": 64,
+      "x": 1929,
+      "y": -385,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "05e8fe3b-fd9c-494c-8412-e03077844349",
+      "width": 64,
+      "x": 1865,
+      "y": -257,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "f12f75a1-220e-4261-9a87-f1aac307ed6e",
+      "width": 64,
+      "x": 1801,
+      "y": -129,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "03d19809-f73a-4d26-95e0-5fd9804ae6b8",
+      "width": 64,
+      "x": 1737,
+      "y": -65,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "1f23b904-2a6e-432b-b89c-fe6d934288e1",
+      "width": 72,
+      "x": 1793,
+      "y": -193,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "30f393e5-78d1-4cbc-99ac-ba5d9394e78c",
+      "width": 64,
+      "x": -567,
+      "y": 191,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "bbdeaa93-7718-4b5a-9fb5-7ee5d9b276ac",
+      "width": 64,
+      "x": -503,
+      "y": 191,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "91136390-bc3a-47a2-a9f9-15c5efc3284c",
+      "width": 64,
+      "x": -375,
+      "y": -65,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "aa294366-4b7b-4c42-8da0-05f54033d32e",
+      "width": 64,
+      "x": -311,
+      "y": -1,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "7bcafa08-91ee-4ea7-a73e-87734abba9cc",
+      "width": 64,
+      "x": -247,
+      "y": -1,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "8d7dc563-fd89-456f-8420-882152c553ba",
+      "width": 64,
+      "x": -183,
+      "y": -1,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "d3041320-9307-4045-bce1-5bb383aba7d8",
+      "width": 64,
+      "x": -183,
+      "y": 447,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "7586c3e4-5882-4d70-a936-780de20cd2b4",
+      "width": 86,
+      "x": -77,
+      "y": -193,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "1edbc367-390c-46db-8ce8-6f62d91d8aff",
+      "width": 86,
+      "x": -13,
+      "y": -257,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "0f85e587-539f-4d6d-a6bc-1c34b0200c32",
+      "width": 64,
+      "x": 73,
+      "y": -321,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "a9bc68a2-585e-4638-bf6e-4651c16ed172",
+      "width": 64,
+      "x": -119,
+      "y": 958,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "f7a8be51-be82-4741-886b-e2791d4de4aa",
+      "width": 64,
+      "x": 201,
+      "y": 959,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "9dcba6dc-f3bb-4629-b46b-7a3aa1f9c29b",
+      "width": 64,
+      "x": 265,
+      "y": 895,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "0b6fc9e5-6d9f-480b-aefa-982e4649bc7f",
+      "width": 64,
+      "x": 329,
+      "y": 895,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "828be45a-e9cb-461a-93a5-d32da9399093",
+      "width": 64,
+      "x": -823,
+      "y": -257,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "module",
+      "persistentUuid": "1a0b14a8-e8ad-4a91-88f9-e577f466f99f",
+      "width": 64,
+      "x": -720,
+      "y": -257,
+      "zOrder": 1015,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "895cd13f-dc8d-4a17-aee0-e4f05443f3e6",
+      "width": 64,
+      "x": -631,
+      "y": -257,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "43a276b3-73a5-423b-917c-68138f7a2b27",
+      "width": 64,
+      "x": -759,
+      "y": -257,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "2c9fe280-de91-4e9e-bd08-654be99ad2d6",
+      "width": 64,
+      "x": 713,
+      "y": -705,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "5fcdc758-6fb7-4fee-ad5e-fb92321500f5",
+      "width": 64,
+      "x": 649,
+      "y": -705,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "41368f24-0cef-4daf-972d-9c1d7927b128",
+      "width": 64,
+      "x": 585,
+      "y": -705,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "d9ef11c0-2df2-4421-a882-1380920e2042",
+      "width": 64,
+      "x": 521,
+      "y": -705,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "c01ed61c-52f9-470e-a5fd-751d62b5d8c6",
+      "width": 64,
+      "x": 457,
+      "y": -705,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "d39f2a3a-eb0b-493a-91e6-77d38a4c8095",
+      "width": 64,
+      "x": 73,
+      "y": -641,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "7ec81950-784b-4985-8582-013368d01b71",
+      "width": 64,
+      "x": 137,
+      "y": -641,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "module",
+      "persistentUuid": "fdb9d5b7-a278-46e1-adb5-67967ba3e2fe",
+      "width": 64,
+      "x": -183,
+      "y": -897,
+      "zOrder": 1015,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "7e342847-2625-44fa-a348-84047902e8d5",
+      "width": 64,
+      "x": -247,
+      "y": -897,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "39870a0b-3f70-4118-8c36-423b391e3a24",
+      "width": 64,
+      "x": -119,
+      "y": -897,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "1122fee6-00d4-4e79-9f6a-2f4d73b94a0d",
+      "width": 64,
+      "x": -183,
+      "y": -897,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RightArrow",
+      "persistentUuid": "2af80904-650b-4723-afa0-32c404bb8c5e",
+      "width": 0,
+      "x": -507,
+      "y": 726,
+      "zOrder": 1006,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "LeftArrow",
+      "persistentUuid": "b3c8e35f-96b8-4783-9b10-7547ffadb4d5",
+      "width": 0,
+      "x": 122,
+      "y": 729,
+      "zOrder": 1007,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RightArrow",
+      "persistentUuid": "4650ec51-bf51-45c6-906e-fcd2da15cad5",
+      "width": 0,
+      "x": 575,
+      "y": 148,
+      "zOrder": 1006,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "LeftArrow",
+      "persistentUuid": "357f4748-6ca9-433e-8efb-3b25cfa67748",
+      "width": 0,
+      "x": 897,
+      "y": 145,
+      "zOrder": 1007,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "425613b2-5a9e-4cdf-8a6a-a8bcb2e331a9",
+      "width": 64,
+      "x": 1929,
+      "y": 191,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "27153575-d00e-4d63-aefe-44244ccbc90c",
+      "width": 64,
+      "x": 1865,
+      "y": 191,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "29a4a8a6-03df-4f65-8b60-1b36720b8f1a",
+      "width": 64,
+      "x": 1801,
+      "y": 191,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "2352f750-165f-4db4-acc4-4600b6e20612",
+      "width": 64,
+      "x": 1737,
+      "y": 127,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "wodden_panel",
+      "persistentUuid": "32d70cff-69f7-4aa8-9e6e-bbb45dd63f4d",
+      "width": 64,
+      "x": -311,
+      "y": 383,
+      "zOrder": 1019,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 82,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StaticCapricorn_L",
+      "persistentUuid": "93291d95-6548-4a50-8a53-bd444f46601f",
+      "width": 129,
+      "x": 335,
+      "y": 430,
+      "zOrder": 1018,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "wodden_panel",
+      "persistentUuid": "d4af9139-9785-4c9f-b2aa-89655e09f432",
+      "width": 64,
+      "x": 649,
+      "y": 639,
+      "zOrder": 1019,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "wodden_panel",
+      "persistentUuid": "8bec6679-eb10-4361-8fcf-6292ecf426a4",
+      "width": 64,
+      "x": 1737,
+      "y": 447,
+      "zOrder": 1019,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 85,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StaticCapricorn_L",
+      "persistentUuid": "6b3d1814-7412-4594-93ab-4a071fae4bdd",
+      "width": 135,
+      "x": 1606,
+      "y": -150,
+      "zOrder": 1018,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 78,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StaticCapricorn_L",
+      "persistentUuid": "0b75dc34-00d4-4132-b438-654982cee163",
+      "width": 130,
+      "x": 1818,
+      "y": -397,
+      "zOrder": 1018,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WoddenPanel_moving_horizontal",
+      "persistentUuid": "80a00320-0b43-4651-b4ed-e471a1d909e3",
+      "width": 128,
+      "x": 1545,
+      "y": -641,
+      "zOrder": 1021,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StaticCapricorn_L",
+      "persistentUuid": "0930dc72-90a1-4fd6-88e9-0f89052c800b",
+      "width": 129,
+      "x": -47,
+      "y": -337,
+      "zOrder": 1018,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WoddenPanel_moving_vertical",
+      "persistentUuid": "7b60ca37-992e-46f9-8608-fe3b762166ac",
+      "width": 64,
+      "x": -247,
+      "y": -577,
+      "zOrder": 1023,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TextMagician",
+      "persistentUuid": "0752ba07-bcfb-4a54-8e67-a347fac90466",
+      "width": 0,
+      "x": 521,
+      "y": -897,
+      "zOrder": 1024,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 676,
+      "keepRatio": true,
+      "layer": "Popup",
+      "name": "popupText2",
+      "persistentUuid": "654cf0ad-dafd-40a9-a2f8-9c4c09e103b9",
+      "width": 539,
+      "x": 85,
+      "y": 617,
+      "zOrder": 76,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 58,
+      "keepRatio": true,
+      "layer": "Popup",
+      "name": "ExitButton",
+      "persistentUuid": "c8b73640-1e25-4451-9fd3-81393eabf837",
+      "width": 128,
+      "x": 161,
+      "y": 961,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 850,
+      "layer": "Popup",
+      "name": "PopupRedPanel",
+      "persistentUuid": "ae2023b5-9774-4875-a378-af95ac1582a5",
+      "width": 600,
+      "x": 57,
+      "y": 258,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Informations",
+      "name": "levelText",
+      "persistentUuid": "845cb708-9404-4254-ab22-b227c348ac7e",
+      "width": 0,
+      "x": 448,
+      "y": 15,
+      "zOrder": 131,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Informations",
+      "name": "moduleCounterText",
+      "persistentUuid": "ea5f6bfc-459c-43d2-a1a0-68820553d338",
+      "width": 0,
+      "x": 27,
+      "y": 171,
+      "zOrder": 94,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 47.16981132075472,
+      "layer": "Informations",
+      "name": "ukCounterText",
+      "persistentUuid": "60e342a8-ef7d-49be-94ac-d4c63117b9d5",
+      "width": 300,
+      "x": 27,
+      "y": 196,
+      "zOrder": 130,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wegweiser_Links",
+      "persistentUuid": "3516333c-fbc5-43a0-89a7-f8a67bc1e9d8",
+      "width": 64,
+      "x": -55,
+      "y": 319,
+      "zOrder": 1034,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wegweiser_Rechts",
+      "persistentUuid": "afb9fcf6-6265-4264-9cdf-2245d773452d",
+      "width": 64,
+      "x": 969,
+      "y": 639,
+      "zOrder": 1035,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wegweiser_Links",
+      "persistentUuid": "4f63f46f-7639-457c-a0bd-05a0913f3308",
+      "width": 64,
+      "x": 1865,
+      "y": 63,
+      "zOrder": 1034,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wegweiser_Links",
+      "persistentUuid": "c4f55572-381d-4688-8c73-17007bf0df04",
+      "width": 64,
+      "x": 73,
+      "y": -449,
+      "zOrder": 1034,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wegweiser_Rechts",
+      "persistentUuid": "1c52cebb-b5ed-4a36-870e-08bcc57f536d",
+      "width": 64,
+      "x": 1289,
+      "y": -641,
+      "zOrder": 1035,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "77ff8b9a-53a6-4689-8f86-e351c79691b5",
+      "width": 64,
+      "x": -695,
+      "y": -257,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 90,
+      "layer": "",
+      "name": "Capricorn",
+      "persistentUuid": "c8b796c1-7bdb-4366-b98f-5ebd4c8db0d7",
+      "width": 102,
+      "x": -476,
+      "y": 677,
+      "zOrder": 1036,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 45.948717948717956,
+      "keepRatio": true,
+      "layer": "PopupHidden",
+      "name": "bug",
+      "persistentUuid": "d916b869-bd16-46a7-baa8-f63bd1306b86",
+      "width": 64,
+      "x": 652,
+      "y": 1230,
+      "zOrder": 1037,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "PopupHidden",
+      "name": "LeftArrow",
+      "persistentUuid": "077c9a17-fd8b-418f-b447-ffaf5a8ddf09",
+      "width": 0,
+      "x": 719,
+      "y": 1245,
+      "zOrder": 1038,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "PopupHidden",
+      "name": "RightArrow",
+      "persistentUuid": "6ae32fdb-b6f9-453a-aeb0-7b1e1a0806b0",
+      "width": 0,
+      "x": -3,
+      "y": 1257,
+      "zOrder": 1039,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "worm",
+      "persistentUuid": "ebdc8981-30ce-4d28-96b9-368245b52d46",
+      "width": 136.82758620689654,
+      "x": 1050,
+      "y": 700,
+      "zOrder": 1040,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 81,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Capricorn",
+      "persistentUuid": "28e335f7-3050-4f07-ab98-9b5bf5793bf2",
+      "width": 96,
+      "x": 793,
+      "y": 111,
+      "zOrder": 1041,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 23,
+      "keepRatio": true,
+      "layer": "Informations",
+      "name": "heart",
+      "persistentUuid": "b4241fe3-5555-4df2-a2ac-9bee3e88787f",
+      "width": 24.210526315789473,
+      "x": 607,
+      "y": 15,
+      "zOrder": 97,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 23,
+      "keepRatio": true,
+      "layer": "Informations",
+      "name": "heart2",
+      "persistentUuid": "6d5f3877-9491-4fd6-a774-8efbbb888ef2",
+      "width": 24.210526315789473,
+      "x": 634,
+      "y": 15,
+      "zOrder": 97,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 23,
+      "keepRatio": true,
+      "layer": "Informations",
+      "name": "heart3",
+      "persistentUuid": "9919f2c8-4efd-4746-8cda-1e89ac2b692d",
+      "width": 24.210526315789473,
+      "x": 663,
+      "y": 15,
+      "zOrder": 97,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 23,
+      "keepRatio": true,
+      "layer": "Informations",
+      "name": "heart4",
+      "persistentUuid": "17197705-cf91-4962-8b4e-68be6a676091",
+      "width": 24.210526315789473,
+      "x": 691,
+      "y": 14,
+      "zOrder": 97,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 23,
+      "keepRatio": true,
+      "layer": "Informations",
+      "name": "heartP2_1",
+      "persistentUuid": "48b48d52-c080-43e1-a585-10c35cd96efe",
+      "width": 24.210526315789473,
+      "x": 607,
+      "y": 15,
+      "zOrder": 97,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 23,
+      "keepRatio": true,
+      "layer": "Informations",
+      "name": "heartP2_2",
+      "persistentUuid": "f4bb3c4b-da5c-47a7-80f0-c424865c68d2",
+      "width": 24.210526315789473,
+      "x": 634,
+      "y": 15,
+      "zOrder": 97,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 23,
+      "keepRatio": true,
+      "layer": "Informations",
+      "name": "heartP2_3",
+      "persistentUuid": "f49b447d-4217-4928-8cbb-3ad2a10926f8",
+      "width": 24.210526315789473,
+      "x": 663,
+      "y": 15,
+      "zOrder": 97,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 23,
+      "keepRatio": true,
+      "layer": "Informations",
+      "name": "heartP2_4",
+      "persistentUuid": "5755edb4-d983-4e08-a098-ef5acb2a0479",
+      "width": 24.210526315789473,
+      "x": 691,
+      "y": 15,
+      "zOrder": 97,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 66,
+      "layer": "",
+      "name": "keyboard",
+      "persistentUuid": "b36d1470-5b27-47a2-bc8e-f430a10a9dfd",
+      "width": 58,
+      "x": -516,
+      "y": 66,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 66,
+      "layer": "",
+      "name": "keyboard",
+      "persistentUuid": "b2b6bb35-f146-4500-8806-89ba2310c6ca",
+      "width": 58,
+      "x": -251,
+      "y": -704,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 66,
+      "layer": "",
+      "name": "keyboard",
+      "persistentUuid": "dee104b5-f05d-4cb9-adb5-8509141f0cbb",
+      "width": 58,
+      "x": 1410,
+      "y": -738,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 66,
+      "layer": "",
+      "name": "keyboard",
+      "persistentUuid": "740fbfd6-ca44-42a0-9448-9bd3b50e957b",
+      "width": 58,
+      "x": 1779,
+      "y": -359,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "f7b1fef4-ec84-4c6d-94e1-86b6bbd2dc94",
+      "width": 64,
+      "x": -759,
+      "y": -257,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "bb396895-7f55-449a-9f1c-794ff48ec78c",
+      "width": 64,
+      "x": -55,
+      "y": 1087,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "2714887e-1c5b-4857-9909-9812101d6d67",
+      "width": 64,
+      "x": -55,
+      "y": 894,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkGranite",
+      "persistentUuid": "cb52594c-8b5d-4bc8-bfcd-83efe8d5e89c",
+      "width": 64,
+      "x": 9,
+      "y": 831,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 106,
+      "keepRatio": true,
+      "layer": "Popup",
+      "name": "WeiterLesenButton",
+      "persistentUuid": "51fb234c-5e9b-45fd-ac74-ca28bcc04a37",
+      "width": 334,
+      "x": 288,
+      "y": 936,
+      "zOrder": 1047,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "LeftArrow",
+      "persistentUuid": "00eba42c-1783-45f5-a3ae-2967fb31bb4a",
+      "width": 0,
+      "x": 1979,
+      "y": 679,
+      "zOrder": 1048,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RightArrow",
+      "persistentUuid": "81a755a8-c266-47bc-a216-000e610ee7e5",
+      "width": 0,
+      "x": 1674,
+      "y": 672,
+      "zOrder": 1049,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RightArrow",
+      "persistentUuid": "1c06fd49-a01d-40e3-8b45-555b1549d1bc",
+      "width": 0,
+      "x": -843,
+      "y": -291,
+      "zOrder": 1050,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "LeftArrow",
+      "persistentUuid": "88dde974-b288-494b-adeb-b98ae8b554a0",
+      "width": 0,
+      "x": -558,
+      "y": -291,
+      "zOrder": 1051,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RightArrow",
+      "persistentUuid": "3297880f-c212-4ef8-9a1c-f73df6518afe",
+      "width": 0,
+      "x": 442,
+      "y": -737,
+      "zOrder": 1054,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "LeftArrow",
+      "persistentUuid": "b15021e4-16fc-4644-8d04-003d066488ac",
+      "width": 0,
+      "x": 774,
+      "y": -735,
+      "zOrder": 1055,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RightArrow",
+      "persistentUuid": "74619919-f24b-4667-940e-079214fef8e9",
+      "width": 0,
+      "x": -324,
+      "y": -40,
+      "zOrder": 1056,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "LeftArrow",
+      "persistentUuid": "464002c3-b795-4f6f-8f59-467368fa4132",
+      "width": 0,
+      "x": -110,
+      "y": -43,
+      "zOrder": 1057,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 78,
+      "layer": "",
+      "name": "Capricorn",
+      "persistentUuid": "7b4bc338-0869-4a52-a9ec-27c45299361f",
+      "width": 93,
+      "x": -230,
+      "y": -79,
+      "zOrder": 1058,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 77,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Capricorn",
+      "persistentUuid": "d2ec08b5-dad3-4e56-86c7-b0b3332c9673",
+      "width": 87,
+      "x": -831,
+      "y": -337,
+      "zOrder": 1059,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 77,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StaticCapricorn_R",
+      "persistentUuid": "7065b7c7-f4df-435b-ba3b-4fd615b4f898",
+      "width": 121,
+      "x": 73,
+      "y": -714,
+      "zOrder": 1060,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "layer": "",
+      "name": "StaticCapricorn_R",
+      "persistentUuid": "121a4105-c39d-422e-b5cd-187f4dcf69bf",
+      "width": 130,
+      "x": -324,
+      "y": 305,
+      "zOrder": 1061,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Capricorn",
+      "persistentUuid": "fa6ea7f6-e548-44d2-88a3-9cae97902a0d",
+      "width": 90,
+      "x": 1880,
+      "y": 628,
+      "zOrder": 1062,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StaticCapricorn_R",
+      "persistentUuid": "8baedfe2-93da-40d0-a7ef-d0c7d72b69ec",
+      "width": 123,
+      "x": 819,
+      "y": -206,
+      "zOrder": 1063,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 80,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Capricorn",
+      "persistentUuid": "97c415d2-b544-406a-b8b6-55a81e2a4989",
+      "width": 89,
+      "x": 667,
+      "y": -784,
+      "zOrder": 1064,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 81,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StaticCapricorn_R",
+      "persistentUuid": "a97d8dff-5fa3-4e3c-b156-ba4bc72ea40e",
+      "width": 119,
+      "x": 80,
+      "y": 880,
+      "zOrder": 1065,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 42,
+      "keepRatio": true,
+      "layer": "",
+      "name": "whitefield",
+      "persistentUuid": "0d30dfa6-761f-433d-bc62-df8dfbd5b108",
+      "width": 86,
+      "x": -256,
+      "y": 16,
+      "zOrder": 1047,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 36,
+      "keepRatio": true,
+      "layer": "",
+      "name": "prometheus",
+      "persistentUuid": "f6d63a13-126f-4633-bb86-e950ae9e049d",
+      "width": 36,
+      "x": -228,
+      "y": 19,
+      "zOrder": 1048,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 36,
+      "keepRatio": true,
+      "layer": "",
+      "name": "whitefield",
+      "persistentUuid": "d1a6eca7-de67-4dc8-b920-828eeff5e85e",
+      "width": 64,
+      "x": -641,
+      "y": -234,
+      "zOrder": 1049,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 22,
+      "keepRatio": true,
+      "layer": "",
+      "name": "apache",
+      "persistentUuid": "1ea0deee-be6d-4897-bb57-988c03c28c07",
+      "width": 57,
+      "x": -637,
+      "y": -226,
+      "zOrder": 1050,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 39,
+      "keepRatio": true,
+      "layer": "",
+      "name": "whitefield",
+      "persistentUuid": "e1853c21-d6a0-4ec2-a1ab-b56a6b1fb3d4",
+      "width": 78,
+      "x": 1109,
+      "y": -238,
+      "zOrder": 1051,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 14,
+      "keepRatio": true,
+      "layer": "",
+      "name": "docker",
+      "persistentUuid": "93efa032-8b47-4e18-9f53-aa485560e2f7",
+      "width": 61,
+      "x": 1118,
+      "y": -225,
+      "zOrder": 1052,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 23,
+      "keepRatio": true,
+      "layer": "",
+      "name": "whitefield",
+      "persistentUuid": "e4be79a4-4250-43e5-8fc7-8b45c396c9ab",
+      "width": 39,
+      "x": 1456,
+      "y": -615,
+      "zOrder": 1053,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 22,
+      "keepRatio": true,
+      "layer": "",
+      "name": "openshift",
+      "persistentUuid": "7b5371ae-7dbd-42cc-a45a-b64114918183",
+      "width": 20,
+      "x": 1466,
+      "y": -614,
+      "zOrder": 1054,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Granite",
+      "persistentUuid": "84764b60-1146-4315-ac29-2234921387e1",
+      "width": 64,
+      "x": 1747,
+      "y": -55,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 146,
+      "keepRatio": true,
+      "layer": "Controls",
+      "name": "shootControl",
+      "persistentUuid": "76411961-5dd8-47d7-bd39-2d3937a714cc",
+      "width": 162,
+      "x": 481,
+      "y": 975,
+      "zOrder": 1066,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Informations",
+      "name": "keyboardCounterText",
+      "persistentUuid": "1d2bb70a-0a83-461f-ac93-76d4bbda67cc",
+      "width": 0,
+      "x": 28,
+      "y": 147,
+      "zOrder": 1067,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "height": 64,
+      "name": "wallBlock",
+      "persistentUuid": "f43b411c-17ae-4046-a94a-0e44516e28f2",
+      "texture": "assets\\5x5_wall_block.jpg",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "throwableCable",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AdvancedProjectile",
+          "type": "AdvancedProjectile::AdvancedProjectile",
+          "MaxLifetime": 0,
+          "MaxDistanceFromStartingPosition": 400,
+          "MaxSpeed": 2000,
+          "MinSpeed": 250,
+          "Acceleration": 1000,
+          "StartingSpeed": 250,
+          "DeleteWhenLifetimeExceeded": true,
+          "DeleteWhenDistanceExceeded": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Cable.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 510,
+                        "y": 0
+                      },
+                      {
+                        "x": 510,
+                        "y": 50
+                      },
+                      {
+                        "x": 0,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "QuizMaster",
+      "persistentUuid": "6b766305-5c86-4e2c-b9a4-e2c47418773a",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Advisor-R.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 310,
+                        "y": 0
+                      },
+                      {
+                        "x": 310,
+                        "y": 760
+                      },
+                      {
+                        "x": 0,
+                        "y": 760
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "87e6c3d645e02e5f14df66687f129bcefed631f82a8d4e2750164d2e30aa0fc9",
+      "height": 320,
+      "name": "grey_Platform_moving",
+      "texture": "assets\\Granit mit Schnee.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [
+        {
+          "name": "direction",
+          "type": "string",
+          "value": "left"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        },
+        {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement",
+          "Width": 200,
+          "Height": 0,
+          "Clockwise": true,
+          "HorizontalEdgeDuration": 3,
+          "VerticalEdgeDuration": 0,
+          "Left": 1.00000000000091,
+          "Top": 1.00000000000091,
+          "Progress": 1.00000000000091,
+          "OldX": 1.00000000000091,
+          "OldY": 1.00000000000091,
+          "Easing": "easeInOutSine",
+          "InitialPosition": "Top-left corner",
+          "ToogleClockwise": false
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SnowyGranite",
+      "persistentUuid": "7b13dad6-a4c5-41cf-80bc-75c397a2c9de",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Granit mit Schnee.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 320
+                      },
+                      {
+                        "x": 0,
+                        "y": 320
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SnowyGranite_5x1",
+      "persistentUuid": "b02f744b-0829-4993-9cec-f132975e6dc3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Granit mit Schnee 5x1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Granite",
+      "persistentUuid": "4ac1fe5f-0ec2-4197-9eef-dd661dcd8de3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Granit.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 320
+                      },
+                      {
+                        "x": 0,
+                        "y": 320
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Granite_5x1",
+      "persistentUuid": "8f92105d-28f6-4df6-befe-a177f9c43e6c",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Granit 5x1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "DarkGranite",
+      "persistentUuid": "6b209d68-66bb-4a06-b57a-3bec7b03753f",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dunkler Granit.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 320
+                      },
+                      {
+                        "x": 0,
+                        "y": 320
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "DarkGranite_5x1",
+      "persistentUuid": "874ef4c9-da49-4aa0-bc5c-3df108e79723",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dunkler Granit 5x1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SnowyGranite_moving_horizontal",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        },
+        {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement",
+          "Width": 256,
+          "Height": 0,
+          "Clockwise": false,
+          "HorizontalEdgeDuration": 4,
+          "VerticalEdgeDuration": 1,
+          "Left": 1.00000000000091,
+          "Top": 1.00000000000091,
+          "Progress": 1.00000000000091,
+          "OldX": 1.00000000000091,
+          "OldY": 1.00000000000091,
+          "Easing": "easeInOutSine",
+          "InitialPosition": "Top-left corner",
+          "ToogleClockwise": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Granit mit Schnee 2x1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SnowyGranite_moving_vertical",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        },
+        {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement",
+          "Width": 0,
+          "Height": 64,
+          "Clockwise": false,
+          "HorizontalEdgeDuration": 1,
+          "VerticalEdgeDuration": 2,
+          "Left": 1.00000000000091,
+          "Top": 1.00000000000091,
+          "Progress": 1.00000000000091,
+          "OldX": 1.00000000000091,
+          "OldY": 1.00000000000091,
+          "Easing": "easeInOutSine",
+          "InitialPosition": "Top-left corner",
+          "ToogleClockwise": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Granit mit Schnee.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 320
+                      },
+                      {
+                        "x": 0,
+                        "y": 320
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "wodden_panel",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Bretter hell.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 70
+                      },
+                      {
+                        "x": 0,
+                        "y": 70
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "WoddenPanel_moving_horizontal",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        },
+        {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement",
+          "Width": 256,
+          "Height": 0,
+          "Clockwise": false,
+          "HorizontalEdgeDuration": 4,
+          "VerticalEdgeDuration": 1,
+          "Left": 1.00000000000091,
+          "Top": 1.00000000000091,
+          "Progress": 1.00000000000091,
+          "OldX": 1.00000000000091,
+          "OldY": 1.00000000000091,
+          "Easing": "easeInOutSine",
+          "InitialPosition": "Top-left corner",
+          "ToogleClockwise": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Bretter hell 2x1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 640,
+                        "y": 0
+                      },
+                      {
+                        "x": 640,
+                        "y": 70
+                      },
+                      {
+                        "x": 0,
+                        "y": 70
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "WoddenPanel_moving_vertical",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        },
+        {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement",
+          "Width": 0,
+          "Height": 64,
+          "Clockwise": false,
+          "HorizontalEdgeDuration": 1,
+          "VerticalEdgeDuration": 2,
+          "Left": 1.00000000000091,
+          "Top": 1.00000000000091,
+          "Progress": 1.00000000000091,
+          "OldX": 1.00000000000091,
+          "OldY": 1.00000000000091,
+          "Easing": "easeInOutSine",
+          "InitialPosition": "Top-left corner",
+          "ToogleClockwise": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Bretter hell.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 70
+                      },
+                      {
+                        "x": 0,
+                        "y": 70
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Wegweiser_Rechts",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Wegweiser-Rechts.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 35
+                      },
+                      {
+                        "x": 320,
+                        "y": 35
+                      },
+                      {
+                        "x": 320,
+                        "y": 640
+                      },
+                      {
+                        "x": 0,
+                        "y": 640
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Wegweiser_Links",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Wegweiser-Links.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 35
+                      },
+                      {
+                        "x": 320,
+                        "y": 35
+                      },
+                      {
+                        "x": 320,
+                        "y": 640
+                      },
+                      {
+                        "x": 0,
+                        "y": 640
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "openshift",
+      "persistentUuid": "94f57596-4626-4a6c-b84e-2df9a69e24d7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OpenShift-LogoType.svg.webp",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 27,
+                        "y": 27
+                      },
+                      {
+                        "x": 933,
+                        "y": 27
+                      },
+                      {
+                        "x": 933,
+                        "y": 999
+                      },
+                      {
+                        "x": 27,
+                        "y": 999
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "docker",
+      "persistentUuid": "19697e6a-e5f2-41f8-b48a-1af3a578456a",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Docker_Logo.svg.webp",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 960,
+                        "y": 0
+                      },
+                      {
+                        "x": 960,
+                        "y": 219
+                      },
+                      {
+                        "x": 0,
+                        "y": 219
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "apache",
+      "persistentUuid": "f5631c1f-f7ac-4657-be9e-563346aeda1d",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Apache_HTTP_server_logo_(2019-pr.webp",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 0
+                      },
+                      {
+                        "x": 3840,
+                        "y": 0
+                      },
+                      {
+                        "x": 3840,
+                        "y": 1439
+                      },
+                      {
+                        "x": 24,
+                        "y": 1439
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "prometheus",
+      "persistentUuid": "9656e7d3-2a3f-4343-8763-99e36539f543",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Prometheus_software_logo.svg.webp",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 9
+                      },
+                      {
+                        "x": 1262,
+                        "y": 9
+                      },
+                      {
+                        "x": 1262,
+                        "y": 1266
+                      },
+                      {
+                        "x": 0,
+                        "y": 1266
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "wallBlock"
+      },
+      {
+        "objectName": "grey_Platform_moving"
+      },
+      {
+        "objectName": "throwableCable"
+      },
+      {
+        "objectName": "SnowyGranite"
+      },
+      {
+        "objectName": "SnowyGranite_moving_horizontal"
+      },
+      {
+        "objectName": "SnowyGranite_moving_vertical"
+      },
+      {
+        "objectName": "SnowyGranite_5x1"
+      },
+      {
+        "objectName": "Granite"
+      },
+      {
+        "objectName": "Granite_5x1"
+      },
+      {
+        "objectName": "DarkGranite"
+      },
+      {
+        "objectName": "DarkGranite_5x1"
+      },
+      {
+        "objectName": "QuizMaster"
+      },
+      {
+        "objectName": "wodden_panel"
+      },
+      {
+        "objectName": "WoddenPanel_moving_horizontal"
+      },
+      {
+        "objectName": "WoddenPanel_moving_vertical"
+      },
+      {
+        "objectName": "Wegweiser_Rechts"
+      },
+      {
+        "objectName": "Wegweiser_Links"
+      },
+      {
+        "objectName": "openshift"
+      },
+      {
+        "objectName": "docker"
+      },
+      {
+        "objectName": "apache"
+      },
+      {
+        "objectName": "prometheus"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "RightArrow"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "LeftArrow"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "TextMagician"
+          ]
+        },
+        {
+          "type": {
+            "value": "AutoTyping::AutoTyping::ShowFullText"
+          },
+          "parameters": [
+            "popupTitle",
+            "AutoTyping",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PopUp::InitInfosPopup"
+          },
+          "parameters": [
+            "",
+            "PopupRedPanel",
+            "popupText2",
+            "ExitButton",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "50",
+            "\"Enemies\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "Modu",
+            "\"Modules-Ueks-Enemies\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "lehrjahr",
+            "=",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "lehrjahrIndex",
+            "=",
+            "lehrjahr-1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "levelStarted",
+            "True",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "countDownTime[0]",
+            "=",
+            "12"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "countDownTime[1]",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "countdownMinutes",
+            "=",
+            "12"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "countDownTotalTime",
+            "=",
+            "720"
+          ]
+        },
+        {
+          "type": {
+            "value": "EffectCapability::EffectBehavior::EnableEffect"
+          },
+          "parameters": [
+            "Buttons",
+            "Effect",
+            "\"Outline\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"cockpitLayout\"",
+            "455",
+            "225",
+            "60"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"CountDownTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "totalUkCount",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "totalModuleCount",
+            "=",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "currantLevel",
+            "=",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "moduleCounter",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "ukCounter",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "heartCounter",
+            "=",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "keyboardCounter",
+            "=",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "moduleCounterText",
+            "Text",
+            "=",
+            "\"Module: \" + moduleCounter + \"/\" + totalModuleCount"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "ukCounterText",
+            "Text",
+            "=",
+            "\"Ük: \" + ukCounter + \"/\" + totalUkCount"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "heartCounterText",
+            "Text",
+            "=",
+            "\"Leben: \" + heartCounter"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "levelText",
+            "Text",
+            "=",
+            "\"Level: \" + currantLevel"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "keyboardCounterText",
+            "Text",
+            "=",
+            "\"Handys: \" + keyboardCounter"
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "WeiterLesenButton"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "lerp(CameraX(\"\",0) + 15, players.X(), .05)",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "lerp(CameraY(\"\",0) - 5, players.Y(), .05)",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ClampCamera"
+          },
+          "parameters": [
+            "",
+            "-1015",
+            "-896",
+            "2100",
+            "1280",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Set player"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Index"
+              },
+              "parameters": [
+                "players",
+                "Animation",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Index"
+              },
+              "parameters": [
+                "players",
+                "Animation",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "players",
+                "direction",
+                "=",
+                "\"left\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": {
+            "value": "TimeScale"
+          },
+          "parameters": [
+            "",
+            ">",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "lerp(CameraX(\"\",0)-30, players.X(), .05)",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "player movment"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "walking enemies"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "enemy colision"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Cables Throws"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Shoot"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Collect Keyboards"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Finding Objects"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Game End"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Popup"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Heart"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Start the count down"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Level Success jump to next level"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "players",
+            "QuizMaster",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "ukCounter",
+                "=",
+                "totalUkCount"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "moduleCounter",
+                "=",
+                "totalModuleCount"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Quiz\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "ukCounter",
+                "!=",
+                "totalUkCount"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "moduleCounter",
+                "=",
+                "totalModuleCount"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TextMagician",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TextMagician",
+                "Text",
+                "=",
+                "\"Suche weiter...\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TextMagician"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "ukCounter",
+                "=",
+                "totalUkCount"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "moduleCounter",
+                "!=",
+                "totalModuleCount"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TextMagician",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TextMagician",
+                "Text",
+                "=",
+                "\"Suche weiter...\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TextMagician"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "moduleCounter",
+                "!=",
+                "totalModuleCount"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "ukCounter",
+                "!=",
+                "totalUkCount"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TextMagician",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TextMagician",
+                "Text",
+                "=",
+                "\"Suche weiter...\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TextMagician"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "PopupHidden",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Controls",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Informations",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "perspective",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Popup",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "AdvancedJump",
+      "type": "AdvancedJump::AdvancedJump"
+    },
+    {
+      "name": "AdvancedProjectile",
+      "type": "AdvancedProjectile::AdvancedProjectile"
+    },
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "AutoTyping",
+      "type": "AutoTyping::AutoTyping"
+    },
+    {
+      "name": "ButtonFSM",
+      "type": "ButtonStates::ButtonFSM"
+    },
+    {
+      "name": "ButtonObjectEffects",
+      "type": "ButtonStates::ButtonObjectEffects"
+    },
+    {
+      "name": "DiveDash",
+      "type": "AdvancedJump::DiveDash"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "EllipseMovement",
+      "type": "EllipseMovement::EllipseMovement"
+    },
+    {
+      "name": "FireBullet",
+      "type": "FireBullet::FireBullet"
+    },
+    {
+      "name": "FlashEffect",
+      "type": "Flash::FlashEffect"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerConfigurationStack",
+      "type": "AdvancedJump::PlatformerConfigurationStack"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
+      "name": "RectangleMovement",
+      "type": "RectangleMovement::RectangleMovement"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "WallJump",
+      "type": "AdvancedJump::WallJump"
+    }
+  ]
+}

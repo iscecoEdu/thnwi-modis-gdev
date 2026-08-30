@@ -6,7 +6,7 @@
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
-  "title": "1. Lehrjahr: Basisjahr ausserhalb des Betriebs",
+  "title": "4. Lehrjahr",
   "v": 209,
   "uiSettings": {
     "grid": false,
@@ -6800,7 +6800,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "currantLevel",
+            "currentLevel",
             "=",
             "4"
           ]
@@ -6886,7 +6886,7 @@
             "levelText",
             "Text",
             "=",
-            "\"Level: \" + currantLevel"
+            "\"Level: \" + currentLevel"
           ]
         },
         {
@@ -7036,7 +7036,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "player movment"
+      "target": "Player Movement"
     },
     {
       "type": "BuiltinCommonInstructions::Link",
@@ -7050,14 +7050,14 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "enemy colision"
+      "target": "Enemy Collision"
     },
     {
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
       },
-      "target": "Cables Throws"
+      "target": "Cable Throws"
     },
     {
       "type": "BuiltinCommonInstructions::Link",

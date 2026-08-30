@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 280,
+    "build": 281,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -268,14 +268,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/Tastatur.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Tastatur.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/5x5_wall_block4.jpg",
         "kind": "image",
         "metadata": "",
@@ -290,30 +282,6 @@
         "name": "assets\\Fragezeichen-hit-Box.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "file": "assets/Left-Arrow.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Left-Arrow.png\",\"extension\":\".png\"}",
-        "name": "Left-Arrow.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/c49fc26e46b89aa8a5d48a1823fc292cffc6b610713ff3a3fff796e151412a59_Left-Arrow.png",
-          "name": "Left-Arrow.png"
-        }
-      },
-      {
-        "file": "assets/Right-Arrow.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Right-Arrow.png\",\"extension\":\".png\"}",
-        "name": "Right-Arrow.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/91e09053deb6974f426debf11cf77b6ca72c64dfaffa8c4887732df66cde2c71_Right-Arrow.png",
-          "name": "Right-Arrow.png"
-        }
       },
       {
         "file": "assets/Cable.png",
@@ -364,7 +332,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Bug-L-flach.png",
+        "file": "assets/bug_L.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Bug-L-flach.png\",\"extension\":\".png\"}",
         "name": "assets\\Bug-L-flach.png",
@@ -551,22 +519,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/Steinbock-R.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Steinbock-R.png\",\"extension\":\".png\"}",
-        "name": "assets\\Steinbock-R.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Steinbock-L.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Steinbock-L.png\",\"extension\":\".png\"}",
-        "name": "assets\\Steinbock-L.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/Granit mit Schnee 2x1.png",
         "kind": "image",
         "metadata": "",
@@ -607,22 +559,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/Teppichboden-Orange 10x1.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Teppichboden-Orange 10x1.png\",\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\Teppichboden-Orange 10x1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Büro 2.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Büro 2.png\",\"extension\":\".png\"}",
-        "name": "assets\\Büro 2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/Holzboden.png",
         "kind": "image",
         "metadata": "",
@@ -655,26 +591,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/Büro 1.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Büro 1.png\",\"extension\":\".png\"}",
-        "name": "assets\\Büro 1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/Teppichboden-Blau 10x1.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Teppichboden-Blau 10x1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Teppichboden-Blau 5x1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Teppichboden-Blau 5x1.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -703,30 +623,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/StartGame Button.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\StartGame Button.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Guter-Steinbock-R.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Guter-Steinbock-R.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Guter-Steinbock-L.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Guter-Steinbock-L.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/Bretter hell 2x1.png",
         "kind": "image",
         "metadata": "",
@@ -739,14 +635,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Bretter hell.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Teppichboden-Blau 10x1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Teppichboden-Blau 10x1.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -894,14 +782,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/Shoot-Control.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Shoot-Control.png\",\"extension\":\".png\"}",
-        "name": "assets\\Shoot-Control.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/Wegweiser-Rechts.png",
         "kind": "image",
         "metadata": "",
@@ -998,7 +878,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite3.png",
+        "file": "assets/NewSprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite3",
@@ -1006,7 +886,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite4.png",
+        "file": "assets/NewSprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite4.png\"}",
         "name": "NewSprite4",
@@ -1014,7 +894,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite5.png",
+        "file": "assets/NewSprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite5",
@@ -1022,7 +902,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite6.png",
+        "file": "assets/NewSprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite6",
@@ -1030,7 +910,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite7.png",
+        "file": "assets/NewSprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite7",
@@ -1038,7 +918,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite8.png",
+        "file": "assets/NewSprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite8",
@@ -1050,14 +930,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/iscecosbvlogo2.png\"}",
         "name": "assets/iscecosbvlogo",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/iscecosbvlogo2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "assets/iscecosbvlogo2",
         "smoothed": true,
         "userAdded": false
       },
@@ -1086,7 +958,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/start_HeroMan.png",
+        "file": "assets/Hero_Man3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/start_HeroMan.png\"}",
         "name": "start_HeroMan",
@@ -1102,7 +974,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/start_HeroMan3.png",
+        "file": "assets/start_HeroMan2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/start_HeroMan3.png\"}",
         "name": "start_HeroMan3",
@@ -1110,7 +982,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/start_HeroMan4.png",
+        "file": "assets/Hero_Man3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/start_HeroMan4.png\"}",
         "name": "start_HeroMan4",
@@ -1130,14 +1002,6 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/NewSprite.png\",\"extension\":\".png\"}",
         "name": "MissionInformatik",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/NewSprite.png\",\"extension\":\".png\"}",
-        "name": "whiteSquare2",
         "smoothed": true,
         "userAdded": false
       },
@@ -1190,7 +1054,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/start_Hero_woman4.png",
+        "file": "assets/start_Hero_woman3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "start_Hero_woman4",
@@ -1198,7 +1062,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/start_Hero_woman5.png",
+        "file": "assets/start_Hero_woman2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "start_Hero_woman5",
@@ -1230,58 +1094,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/ChatGPT Image 12. Aug. 2026, 14_27_27.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"ChatGPT Image 12. Aug. 2026, 14_36_24.png\",\"extension\":\".png\"}",
-        "name": "ChatGPT Image 12. Aug. 2026, 14_36_24.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "ChatGPT Image 12. Aug. 2026, 15_58_32.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"ChatGPT Image 12. Aug. 2026, 15_58_32.png\",\"extension\":\".png\"}",
-        "name": "ChatGPT Image 12. Aug. 2026, 15_58_32.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "ChatGPT Image 17. Aug. 2026, 07_32_38.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ChatGPT Image 17. Aug. 2026, 07_32_38.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/ChatGPT Image 17. Aug. 2026, 07_32_38.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "ChatGPT Image 17. Aug. 2026, 07_32_38",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 07_32_39.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ChatGPT Image 17. Aug. 2026, 07_32_39.png\"}",
-        "name": "ChatGPT Image 17. Aug. 2026, 07_32_39",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "ChatGPT Image 17. Aug. 2026, 08_36_32.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"ChatGPT Image 17. Aug. 2026, 08_36_32.png\",\"extension\":\".png\"}",
-        "name": "ChatGPT Image 17. Aug. 2026, 08_36_32.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "ChatGPT Image 17. Aug. 2026, 08_39_30.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ChatGPT Image 17. Aug. 2026, 08_39_30.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -1294,134 +1110,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/throwableKeyboard2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "throwableKeyboard2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "ChatGPT Image 17. Aug. 2026, 12_49_21.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"ChatGPT Image 17. Aug. 2026, 12_49_21.png\",\"extension\":\".png\"}",
-        "name": "ChatGPT Image 17. Aug. 2026, 12_49_21.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 12_49_22.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"ChatGPT Image 17. Aug. 2026, 12_49_22.png\",\"extension\":\".png\"}",
-        "name": "ChatGPT Image 17. Aug. 2026, 12_49_22.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 12_49_23.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ChatGPT Image 17. Aug. 2026, 12_49_23.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 12_49_24.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"ChatGPT Image 17. Aug. 2026, 12_49_24.png\",\"extension\":\".png\"}",
-        "name": "ChatGPT Image 17. Aug. 2026, 12_49_24.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 13_24_59.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ChatGPT Image 17. Aug. 2026, 13_24_59.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 13_28_00.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ChatGPT Image 17. Aug. 2026, 13_28_00.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 13_33_08.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ChatGPT Image 17. Aug. 2026, 13_33_08.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 13_38_55.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ChatGPT Image 17. Aug. 2026, 13_38_55.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/image-gen-1(10).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "image-gen-1(10).png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 14_01_35.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"ChatGPT Image 17. Aug. 2026, 14_01_35.png\",\"extension\":\".png\"}",
-        "name": "ChatGPT Image 17. Aug. 2026, 14_01_35.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 14_04_43.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"ChatGPT Image 17. Aug. 2026, 14_04_43.png\",\"extension\":\".png\"}",
-        "name": "ChatGPT Image 17. Aug. 2026, 14_04_43.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 14_08_28.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ChatGPT Image 17. Aug. 2026, 14_08_28.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 14_10_28.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ChatGPT Image 17. Aug. 2026, 14_10_28.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 14_16_33.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ChatGPT Image 17. Aug. 2026, 14_16_33.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 14_27_21.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ChatGPT Image 17. Aug. 2026, 14_27_21.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/ChatGPT Image 17. Aug. 2026, 14_01_35.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ChatGPT Image 17. Aug. 2026, 14_01_35.png\"}",
@@ -1430,15 +1118,7 @@
         "userAdded": false
       },
       {
-        "file": "ChatGPT Image 18. Aug. 2026, 07_56_40.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"ChatGPT Image 18. Aug. 2026, 07_56_40.png\",\"extension\":\".png\"}",
-        "name": "ChatGPT Image 18. Aug. 2026, 07_56_40.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 14_01_36.png",
+        "file": "assets/NewSprite10.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ChatGPT Image 17. Aug. 2026, 14_01_36.png\"}",
         "name": "ChatGPT Image 17. Aug. 2026, 14_01_36",
@@ -1470,7 +1150,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite11.png",
+        "file": "assets/1.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite11",
@@ -1486,14 +1166,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite12",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/Gemini_Generated_Image_svtx9tsvtx9tsvtx.jpg",
         "kind": "image",
         "metadata": "",
@@ -1502,23 +1174,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/grass_block 5x1.jpg2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\grass_block 5x1.jpg2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/grass_block 5x1.jpg3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\grass_block 5x1.jpg3",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/grass_block 5x1.jpg4.png",
+        "file": "assets/grass_block 5x2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "assets\\grass_block 5x1.jpg4",
@@ -1554,22 +1210,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\Büro3",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Teppichboden-Orange 10x1.png2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\Teppichboden-Orange 10x1.png2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Teppichboden-Orange 10x1.png3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\Teppichboden-Orange 10x1.png3",
         "smoothed": true,
         "userAdded": false
       },
@@ -1638,38 +1278,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite15.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite15",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "ChatGPT Image 18. Aug. 2026, 13_13_34.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ChatGPT Image 18. Aug. 2026, 13_13_34.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "ChatGPT Image 17. Aug. 2026, 14_01_36.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ChatGPT Image 17. Aug. 2026, 14_01_36.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "ChatGPT Image 17. Aug. 2026, 14_04_44.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ChatGPT Image 17. Aug. 2026, 14_04_44.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/CapricornSquash_L.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -1682,38 +1290,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/CapricornSquash_R.png\"}",
         "name": "CapricornSquash_R",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/CapricornSquash_R2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "CapricornSquash_R2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/CapricornSquash_L2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "CapricornSquash_L2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/CapricornSquash_R3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "CapricornSquash_R3",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/CapricornSquash_L3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "CapricornSquash_L3",
         "smoothed": true,
         "userAdded": false
       },
@@ -1750,130 +1326,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 14_27_22.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ChatGPT Image 17. Aug. 2026, 14_27_22.png\"}",
-        "name": "ChatGPT Image 17. Aug. 2026, 14_27_22",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 14_27_23.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ChatGPT Image 17. Aug. 2026, 14_27_23.png\"}",
-        "name": "ChatGPT Image 17. Aug. 2026, 14_27_23",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 14_16_34.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ChatGPT Image 17. Aug. 2026, 14_16_34.png\"}",
-        "name": "ChatGPT Image 17. Aug. 2026, 14_16_34",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "ChatGPT Image 25. Aug. 2026, 08_58_36.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ChatGPT Image 25. Aug. 2026, 08_58_36.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 14_16_35.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "ChatGPT Image 17. Aug. 2026, 14_16_35",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 14_27_24.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "ChatGPT Image 17. Aug. 2026, 14_27_24",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/ChatGPT Image 12. Aug. 2026, 14_36_24.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ChatGPT Image 12. Aug. 2026, 14_36_24.png\"}",
         "name": "ChatGPT Image 12. Aug. 2026, 14_36_24",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 14_16_36.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ChatGPT Image 17. Aug. 2026, 14_16_36.png\"}",
-        "name": "ChatGPT Image 17. Aug. 2026, 14_16_36",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 14_27_25.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ChatGPT Image 17. Aug. 2026, 14_27_25.png\"}",
-        "name": "ChatGPT Image 17. Aug. 2026, 14_27_25",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 14_16_37.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "ChatGPT Image 17. Aug. 2026, 14_16_37",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "ChatGPT Image 18. Aug. 2026, 13_13_35.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ChatGPT Image 18. Aug. 2026, 13_13_35.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "ChatGPT Image 25. Aug. 2026, 08_58_37.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ChatGPT Image 25. Aug. 2026, 08_58_37.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 14_16_38.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ChatGPT Image 17. Aug. 2026, 14_16_38.png\"}",
-        "name": "ChatGPT Image 17. Aug. 2026, 14_16_38",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 14_27_26.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ChatGPT Image 17. Aug. 2026, 14_27_26.png\"}",
-        "name": "ChatGPT Image 17. Aug. 2026, 14_27_26",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 14_16_39.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "ChatGPT Image 17. Aug. 2026, 14_16_39",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChatGPT Image 17. Aug. 2026, 14_27_27.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "ChatGPT Image 17. Aug. 2026, 14_27_27",
         "smoothed": true,
         "userAdded": false
       },
@@ -1926,23 +1382,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite14.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite14",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/GitLab_logo.svg.webp",
-        "kind": "image",
-        "metadata": "",
-        "name": "GitLab_logo.svg.webp",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "GitLab_logo.svg2.webp",
+        "file": "assets/GitLab_logo.svg2.webp",
         "kind": "image",
         "metadata": "",
         "name": "GitLab_logo.svg2.webp",
@@ -2038,16 +1478,6 @@
         "userAdded": false
       },
       {
-        "file": "jofae-swing-whoosh-110410(1).mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "jofae-swing-whoosh-110410(1).mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/jump.mp3",
         "kind": "audio",
         "metadata": "",
@@ -2085,22 +1515,6 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "handy.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "handy.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "handy2.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"handy2.png\",\"extension\":\".png\"}",
-        "name": "handy2.png",
-        "smoothed": true,
         "userAdded": false
       },
       {
@@ -2150,6 +1564,38 @@
         "name": "NewSprite16",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Door With Frame.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door With Frame.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Door With Frame_Open.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door With Frame_Open.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Door With Frame_Closed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door With Frame_Closed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/HTML-Background.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HTML-Background.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ]
   },
@@ -3449,7 +2895,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Fragezeichen Box Module2.png",
+                  "image": "assets\\Fragezeichen Box.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10739,7 +10185,7 @@
       "value": 0
     },
     {
-      "name": "currantLevel",
+      "name": "currentLevel",
       "persistentUuid": "ddebcfe9-33e7-499b-adc7-49572bb7a1ba",
       "type": "number",
       "value": 0
@@ -11330,15 +10776,7 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/startuporg"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/startup"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/startup2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -11376,15 +10814,11 @@
   "externalEvents": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/cockpitevs"
+      "referenceTo": "/externalEvents/player-movement"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/player-movment"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/enemy-colision"
+      "referenceTo": "/externalEvents/enemy-collision"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -11392,7 +10826,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/cables-throws"
+      "referenceTo": "/externalEvents/cable-throws"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -11467,7 +10901,7 @@
       "lastRunDurationMs": 5606,
       "lastRunFramesExecuted": 231,
       "lastRunStatus": "passed",
-      "name": "lever1-test",
+      "name": "level1-test",
       "type": "gameplay",
       "source": [
         "// Test: verifiziert die Kernmechaniken des Spiels.",

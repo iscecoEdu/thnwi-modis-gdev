@@ -3606,7 +3606,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "currantLevel",
+            "currentLevel",
             "=",
             "1"
           ]
@@ -3712,7 +3712,7 @@
             "levelText",
             "Text",
             "=",
-            "\"Level: \" + currantLevel"
+            "\"Level: \" + currentLevel"
           ]
         },
         {
@@ -3862,7 +3862,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "player movment"
+      "target": "Player Movement"
     },
     {
       "type": "BuiltinCommonInstructions::Link",
@@ -3876,14 +3876,14 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "enemy colision"
+      "target": "Enemy Collision"
     },
     {
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
       },
-      "target": "Cables Throws"
+      "target": "Cable Throws"
     },
     {
       "type": "BuiltinCommonInstructions::Link",

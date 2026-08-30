@@ -577,7 +577,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "currantLevel",
+                "currentLevel",
                 "=",
                 "1"
               ]
@@ -604,7 +604,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "currantLevel",
+                "currentLevel",
                 "=",
                 "2"
               ]
@@ -631,7 +631,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "currantLevel",
+                "currentLevel",
                 "=",
                 "3"
               ]
@@ -658,7 +658,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "currantLevel",
+                "currentLevel",
                 "=",
                 "4"
               ]
@@ -678,13 +678,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "walking enemies"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",

@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5963714163014773,
+    "zoomFactor": 0.6809716786829869,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -5118,23 +5118,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 146,
-      "keepRatio": true,
-      "layer": "Controls",
-      "name": "shootControl",
-      "persistentUuid": "76411961-5dd8-47d7-bd39-2d3937a714cc",
-      "width": 162,
-      "x": 481,
-      "y": 975,
-      "zOrder": 1066,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -5145,6 +5128,23 @@
       "x": 28,
       "y": 147,
       "zOrder": 1067,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 144,
+      "keepRatio": true,
+      "layer": "Controls",
+      "name": "shootControl",
+      "persistentUuid": "bd8664d5-bfa4-45ed-9bf2-ee4eb7a12116",
+      "width": 161,
+      "x": 501,
+      "y": 978,
+      "zOrder": 1068,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -7465,7 +7465,7 @@
       "isLocked": false,
       "name": "Popup",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     }

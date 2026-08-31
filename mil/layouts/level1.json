@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4140789814490793,
+    "zoomFactor": 0.28750774800923545,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -2350,22 +2350,6 @@
       "x": 989,
       "y": 422,
       "zOrder": 118,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "whitefield",
-      "persistentUuid": "82a7d871-14d2-4e88-8765-6cabdd7962b5",
-      "width": 0,
-      "x": 830,
-      "y": 532,
-      "zOrder": 122,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

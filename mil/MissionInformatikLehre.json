@@ -6393,6 +6393,7 @@
         },
         {
           "name": "canDamage",
+          "persistentUuid": "bf2c4792-5062-4aa1-9b82-24b3a2f24c95",
           "type": "number",
           "value": 1
         }

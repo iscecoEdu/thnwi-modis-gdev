@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5398929383613487,
+    "zoomFactor": 0.27812914155120044,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -2395,6 +2395,23 @@
       "x": 27,
       "y": 140,
       "zOrder": 149,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 106,
+      "keepRatio": true,
+      "layer": "Popup",
+      "name": "WeiterLesenButton",
+      "persistentUuid": "44670b8c-18ac-4659-b010-840dc2f6066d",
+      "width": 333,
+      "x": 259,
+      "y": 923,
+      "zOrder": 150,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

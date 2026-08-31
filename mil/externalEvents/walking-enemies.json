@@ -33,7 +33,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::Index"
           },
           "parameters": [
-            "squeezableEnemies",
+            "enemies",
             "Animation",
             "!=",
             "3"
@@ -44,7 +44,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::Index"
           },
           "parameters": [
-            "squeezableEnemies",
+            "enemies",
             "Animation",
             "!=",
             "2"
@@ -95,7 +95,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::Index"
           },
           "parameters": [
-            "squeezableEnemies",
+            "enemies",
             "Animation",
             "!=",
             "3"
@@ -106,7 +106,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::Index"
           },
           "parameters": [
-            "squeezableEnemies",
+            "enemies",
             "Animation",
             "!=",
             "2"
@@ -194,110 +194,6 @@
             "direction",
             "=",
             "\"right\""
-          ]
-        }
-      ]
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "StringObjectVariable"
-          },
-          "parameters": [
-            "squeezableEnemies",
-            "direction",
-            "=",
-            "\"left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::Index"
-          },
-          "parameters": [
-            "squeezableEnemies",
-            "Animation",
-            "<",
-            "2"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AddForceAL"
-          },
-          "parameters": [
-            "squeezableEnemies",
-            "0",
-            "150",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "squeezableEnemies",
-            "Animation",
-            "=",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "StringObjectVariable"
-          },
-          "parameters": [
-            "squeezableEnemies",
-            "direction",
-            "=",
-            "\"right\""
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::Index"
-          },
-          "parameters": [
-            "squeezableEnemies",
-            "Animation",
-            "<",
-            "2"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AddForceAL"
-          },
-          "parameters": [
-            "squeezableEnemies",
-            "0",
-            "150",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "squeezableEnemies",
-            "Animation",
-            "=",
-            "1"
           ]
         }
       ]

@@ -2788,17 +2788,6 @@
       ]
     },
     {
-      "assetStoreId": "349bc496cd936f6b354be7e533e806787567c33b6f2e732a5b9cbaa3b2468955",
-      "height": 1024,
-      "name": "Empty_Cloud_Background",
-      "texture": "tiled_Empty Cloud Background.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 1024,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "assetStoreId": "87e6c3d645e02e5f14df66687f129bcefed631f82a8d4e2750164d2e30aa0fc9",
       "height": 64,
       "name": "carpet_orange_Platform_moving",
@@ -3477,9 +3466,6 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Empty_Cloud_Background"
-      },
-      {
         "objectName": "carpet_orange_platform_new"
       },
       {
@@ -3700,18 +3686,6 @@
             "Effect",
             "\"Outline\"",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-          },
-          "parameters": [
-            "",
-            "\"cockpitLayout\"",
-            "455",
-            "225",
-            "60"
           ]
         },
         {

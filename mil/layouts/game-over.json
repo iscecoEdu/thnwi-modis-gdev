@@ -284,7 +284,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Game Over",
-      "font": "21bcfe4bb1045b82ecde51b2c493fc80da9496fb2f12e2e874a799d97505b795_Goldman-Regular.ttf",
+      "font": "assets\\Goldman-Regular.ttf",
       "textAlignment": "center",
       "characterSize": 50,
       "color": {
@@ -307,7 +307,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Game Over",
-        "font": "21bcfe4bb1045b82ecde51b2c493fc80da9496fb2f12e2e874a799d97505b795_Goldman-Regular.ttf",
+        "font": "assets\\Goldman-Regular.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "center",
         "characterSize": 50,

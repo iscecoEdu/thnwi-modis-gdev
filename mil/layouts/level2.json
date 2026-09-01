@@ -4111,18 +4111,6 @@
         },
         {
           "type": {
-            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-          },
-          "parameters": [
-            "",
-            "\"cockpitLayout\"",
-            "455",
-            "225",
-            "60"
-          ]
-        },
-        {
-          "type": {
             "value": "ResetTimer"
           },
           "parameters": [
